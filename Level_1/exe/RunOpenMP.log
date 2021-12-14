@@ -1,0 +1,5951 @@
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing Mohid Water
+ Please Wait...
+ -------------------------- MODEL -------------------------
+ 
+ Constructing      : ..
+ ID                :            1
+ 
+ OPENMP: Max number of threads available is           20
+ OPENMP: Using the max number of threads available
+ 
+WARNING; KEYWORD; Verify_Numerical_Options - Hydrodynamic - WRN21..
+ 
+ Start construct assimilation, property number :            1
+ End construct assimilation, property number :           1
+ Start construct assimilation, property number :            2
+ End construct assimilation, property number :           2
+ Start construct assimilation, property number :            3
+ End construct assimilation, property number :           3
+ Start construct assimilation, property number :            4
+ Border limits  -49.8174100000000       -44.6340800000000     
+  -29.4339000000000       -23.3339000000000     
+ End construct assimilation, property number :           4
+ Start construct assimilation, property number :            5
+ Border limits  -49.8174100000000       -44.6340800000000     
+  -29.4339000000000       -23.3339000000000     
+ End construct assimilation, property number :           5
+ Start construct assimilation, property number :            6
+ Border limits  -49.8174100000000       -44.6340800000000     
+  -29.4339000000000       -23.3339000000000     
+ End construct assimilation, property number :           6
+ ---------------------- HYDRODYNAMICS ---------------------
+ 
+ Courant Number is :    21.3668782075617     
+ In Grid Cell[i,j] :           71         915
+ 
+ --------------------- WATERPROPERTIES --------------------
+ 
+ Num of Properties :            0
+ 
+ ---------------- INTERFACE SEDIMENT-WATER -----------------
+ 
+ Num of Properties :            0
+ 
+ 
+ Atmosphere DT Prediction Method:            1
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Running MOHID, please wait...
+ 
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0: 4: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :           10s
+ Remaining (aprox.)     :         3605s
+ Completed (%)          :         0.2778
+ Coeficient CPU / Model :         0.0418
+ Seconds per Iteration  :         1.2518s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:15:40
+ End of the run         : 2021: 5:19:19:15:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0: 8:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :           19s
+ Remaining (aprox.)     :         3277s
+ Completed (%)          :         0.5903
+ Coeficient CPU / Model :         0.0382
+ Seconds per Iteration  :         1.0464s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:15:49
+ End of the run         : 2021: 5:19:19:10:27
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:13: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :           29s
+ Remaining (aprox.)     :         3201s
+ Completed (%)          :         0.9028
+ Coeficient CPU / Model :         0.0374
+ Seconds per Iteration  :         1.0786s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:15:59
+ End of the run         : 2021: 5:19:19: 9:21
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :           76s
+ Remaining (aprox.)     :         7257s
+ Completed (%)          :         1.0417
+ Coeficient CPU / Model :         0.0849
+ Seconds per Iteration  :        11.8070s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:16:46
+ End of the run         : 2021: 5:19:20:17:44
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:19:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :           85s
+ Remaining (aprox.)     :         6249s
+ Completed (%)          :         1.3542
+ Coeficient CPU / Model :         0.0733
+ Seconds per Iteration  :         1.0431s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:16:55
+ End of the run         : 2021: 5:19:20: 1: 4
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:24: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :           95s
+ Remaining (aprox.)     :         5617s
+ Completed (%)          :         1.6667
+ Coeficient CPU / Model :         0.0661
+ Seconds per Iteration  :         1.0471s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:17: 5
+ End of the run         : 2021: 5:19:19:50:42
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:29: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          105s
+ Remaining (aprox.)     :         5132s
+ Completed (%)          :         2.0139
+ Coeficient CPU / Model :         0.0606
+ Seconds per Iteration  :         1.0272s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:17:15
+ End of the run         : 2021: 5:19:19:42:47
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:30:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          151s
+ Remaining (aprox.)     :         7006s
+ Completed (%)          :         2.1181
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :        15.3747s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:18: 1
+ End of the run         : 2021: 5:19:20:14:47
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          160s
+ Remaining (aprox.)     :         6461s
+ Completed (%)          :         2.4306
+ Coeficient CPU / Model :         0.0767
+ Seconds per Iteration  :         1.0403s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:18:11
+ End of the run         : 2021: 5:19:20: 5:52
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:39:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          170s
+ Remaining (aprox.)     :         6037s
+ Completed (%)          :         2.7431
+ Coeficient CPU / Model :         0.0719
+ Seconds per Iteration  :         1.0360s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:18:20
+ End of the run         : 2021: 5:19:19:58:58
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:44:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          180s
+ Remaining (aprox.)     :         5660s
+ Completed (%)          :         3.0903
+ Coeficient CPU / Model :         0.0676
+ Seconds per Iteration  :         1.0220s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:18:30
+ End of the run         : 2021: 5:19:19:52:51
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:46: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          226s
+ Remaining (aprox.)     :         6859s
+ Completed (%)          :         3.1944
+ Coeficient CPU / Model :         0.0820
+ Seconds per Iteration  :        15.2803s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:19:16
+ End of the run         : 2021: 5:19:20:13:35
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:50:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          235s
+ Remaining (aprox.)     :         6485s
+ Completed (%)          :         3.5069
+ Coeficient CPU / Model :         0.0778
+ Seconds per Iteration  :         1.0390s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:19:25
+ End of the run         : 2021: 5:19:20: 7:31
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 0:55:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          245s
+ Remaining (aprox.)     :         6134s
+ Completed (%)          :         3.8542
+ Coeficient CPU / Model :         0.0739
+ Seconds per Iteration  :         1.0228s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:19:36
+ End of the run         : 2021: 5:19:20: 1:51
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          301s
+ Remaining (aprox.)     :         6924s
+ Completed (%)          :         4.1667
+ Coeficient CPU / Model :         0.0836
+ Seconds per Iteration  :         6.1260s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:20:31
+ End of the run         : 2021: 5:19:20:15:55
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          311s
+ Remaining (aprox.)     :         6586s
+ Completed (%)          :         4.5139
+ Coeficient CPU / Model :         0.0798
+ Seconds per Iteration  :         1.0290s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:20:41
+ End of the run         : 2021: 5:19:20:10:27
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          321s
+ Remaining (aprox.)     :         6293s
+ Completed (%)          :         4.8611
+ Coeficient CPU / Model :         0.0766
+ Seconds per Iteration  :         1.0228s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:20:51
+ End of the run         : 2021: 5:19:20: 5:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          374s
+ Remaining (aprox.)     :         6814s
+ Completed (%)          :         5.2083
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         5.2845s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:21:44
+ End of the run         : 2021: 5:19:20:15:19
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1:20: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          384s
+ Remaining (aprox.)     :         6537s
+ Completed (%)          :         5.5556
+ Coeficient CPU / Model :         0.0801
+ Seconds per Iteration  :         1.0117s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:21:54
+ End of the run         : 2021: 5:19:20:10:51
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1:25: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          394s
+ Remaining (aprox.)     :         6291s
+ Completed (%)          :         5.9028
+ Coeficient CPU / Model :         0.0774
+ Seconds per Iteration  :         1.0104s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:22: 4
+ End of the run         : 2021: 5:19:20: 6:55
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          447s
+ Remaining (aprox.)     :         6712s
+ Completed (%)          :         6.2500
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         5.2846s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:22:57
+ End of the run         : 2021: 5:19:20:14:50
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          457s
+ Remaining (aprox.)     :         6479s
+ Completed (%)          :         6.5972
+ Coeficient CPU / Model :         0.0803
+ Seconds per Iteration  :         1.0168s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:23: 7
+ End of the run         : 2021: 5:19:20:11: 7
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          467s
+ Remaining (aprox.)     :         6268s
+ Completed (%)          :         6.9444
+ Coeficient CPU / Model :         0.0780
+ Seconds per Iteration  :         1.0172s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:23:17
+ End of the run         : 2021: 5:19:20: 7:46
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          520s
+ Remaining (aprox.)     :         6618s
+ Completed (%)          :         7.2917
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         5.2716s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:24:10
+ End of the run         : 2021: 5:19:20:14:29
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1:50: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          530s
+ Remaining (aprox.)     :         6416s
+ Completed (%)          :         7.6389
+ Coeficient CPU / Model :         0.0804
+ Seconds per Iteration  :         1.0129s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:24:20
+ End of the run         : 2021: 5:19:20:11:17
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 1:55: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          540s
+ Remaining (aprox.)     :         6230s
+ Completed (%)          :         7.9861
+ Coeficient CPU / Model :         0.0784
+ Seconds per Iteration  :         1.0123s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:24:30
+ End of the run         : 2021: 5:19:20: 8:21
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          596s
+ Remaining (aprox.)     :         6565s
+ Completed (%)          :         8.3333
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         5.6078s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:25:27
+ End of the run         : 2021: 5:19:20:14:52
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          607s
+ Remaining (aprox.)     :         6385s
+ Completed (%)          :         8.6806
+ Coeficient CPU / Model :         0.0809
+ Seconds per Iteration  :         1.0139s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:25:37
+ End of the run         : 2021: 5:19:20:12: 3
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          617s
+ Remaining (aprox.)     :         6219s
+ Completed (%)          :         9.0278
+ Coeficient CPU / Model :         0.0791
+ Seconds per Iteration  :         1.0200s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:25:47
+ End of the run         : 2021: 5:19:20: 9:27
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          670s
+ Remaining (aprox.)     :         6477s
+ Completed (%)          :         9.3750
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         5.2873s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:26:40
+ End of the run         : 2021: 5:19:20:14:37
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2:20: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          680s
+ Remaining (aprox.)     :         6316s
+ Completed (%)          :         9.7222
+ Coeficient CPU / Model :         0.0810
+ Seconds per Iteration  :         1.0123s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:26:50
+ End of the run         : 2021: 5:19:20:12: 6
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2:25: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          690s
+ Remaining (aprox.)     :         6164s
+ Completed (%)          :        10.0694
+ Coeficient CPU / Model :         0.0793
+ Seconds per Iteration  :         1.0006s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:27: 0
+ End of the run         : 2021: 5:19:20: 9:44
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          743s
+ Remaining (aprox.)     :         6391s
+ Completed (%)          :        10.4167
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         5.3014s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:27:53
+ End of the run         : 2021: 5:19:20:14:25
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          753s
+ Remaining (aprox.)     :         6246s
+ Completed (%)          :        10.7639
+ Coeficient CPU / Model :         0.0810
+ Seconds per Iteration  :         1.0293s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:28: 3
+ End of the run         : 2021: 5:19:20:12:10
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          763s
+ Remaining (aprox.)     :         6109s
+ Completed (%)          :        11.1111
+ Coeficient CPU / Model :         0.0796
+ Seconds per Iteration  :         1.0217s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:28:13
+ End of the run         : 2021: 5:19:20:10: 3
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          816s
+ Remaining (aprox.)     :         6311s
+ Completed (%)          :        11.4583
+ Coeficient CPU / Model :         0.0825
+ Seconds per Iteration  :         5.2986s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:29: 6
+ End of the run         : 2021: 5:19:20:14:17
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2:50: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          826s
+ Remaining (aprox.)     :         6177s
+ Completed (%)          :        11.8056
+ Coeficient CPU / Model :         0.0811
+ Seconds per Iteration  :         1.0170s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:29:17
+ End of the run         : 2021: 5:19:20:12:14
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 2:55: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          836s
+ Remaining (aprox.)     :         6049s
+ Completed (%)          :        12.1528
+ Coeficient CPU / Model :         0.0797
+ Seconds per Iteration  :         0.9948s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:29:27
+ End of the run         : 2021: 5:19:20:10:16
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          892s
+ Remaining (aprox.)     :         6250s
+ Completed (%)          :        12.5000
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         5.6108s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:30:23
+ End of the run         : 2021: 5:19:20:14:33
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          903s
+ Remaining (aprox.)     :         6126s
+ Completed (%)          :        12.8472
+ Coeficient CPU / Model :         0.0814
+ Seconds per Iteration  :         1.0211s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:30:33
+ End of the run         : 2021: 5:19:20:12:40
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          913s
+ Remaining (aprox.)     :         6007s
+ Completed (%)          :        13.1944
+ Coeficient CPU / Model :         0.0801
+ Seconds per Iteration  :         1.0018s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:30:43
+ End of the run         : 2021: 5:19:20:10:51
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          966s
+ Remaining (aprox.)     :         6169s
+ Completed (%)          :        13.5417
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         5.3184s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:31:36
+ End of the run         : 2021: 5:19:20:14:26
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3:20: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          976s
+ Remaining (aprox.)     :         6056s
+ Completed (%)          :        13.8889
+ Coeficient CPU / Model :         0.0814
+ Seconds per Iteration  :         1.0465s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:31:46
+ End of the run         : 2021: 5:19:20:12:43
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3:25: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :          987s
+ Remaining (aprox.)     :         5946s
+ Completed (%)          :        14.2361
+ Coeficient CPU / Model :         0.0802
+ Seconds per Iteration  :         1.0217s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:31:57
+ End of the run         : 2021: 5:19:20:11: 3
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1040s
+ Remaining (aprox.)     :         6091s
+ Completed (%)          :        14.5833
+ Coeficient CPU / Model :         0.0825
+ Seconds per Iteration  :         5.2979s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:32:50
+ End of the run         : 2021: 5:19:20:14:21
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1050s
+ Remaining (aprox.)     :         5984s
+ Completed (%)          :        14.9306
+ Coeficient CPU / Model :         0.0814
+ Seconds per Iteration  :         1.0297s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:33: 0
+ End of the run         : 2021: 5:19:20:12:44
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1060s
+ Remaining (aprox.)     :         5880s
+ Completed (%)          :        15.2778
+ Coeficient CPU / Model :         0.0803
+ Seconds per Iteration  :         1.0034s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:33:10
+ End of the run         : 2021: 5:19:20:11:10
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1113s
+ Remaining (aprox.)     :         6012s
+ Completed (%)          :        15.6250
+ Coeficient CPU / Model :         0.0825
+ Seconds per Iteration  :         5.3014s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:34: 3
+ End of the run         : 2021: 5:19:20:14:15
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3:50: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1123s
+ Remaining (aprox.)     :         5910s
+ Completed (%)          :        15.9722
+ Coeficient CPU / Model :         0.0814
+ Seconds per Iteration  :         1.0031s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:34:13
+ End of the run         : 2021: 5:19:20:12:43
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 3:55: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1133s
+ Remaining (aprox.)     :         5811s
+ Completed (%)          :        16.3194
+ Coeficient CPU / Model :         0.0804
+ Seconds per Iteration  :         0.9870s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:34:23
+ End of the run         : 2021: 5:19:20:11:14
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1188s
+ Remaining (aprox.)     :         5944s
+ Completed (%)          :        16.6667
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         5.5687s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:35:19
+ End of the run         : 2021: 5:19:20:14:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1199s
+ Remaining (aprox.)     :         5848s
+ Completed (%)          :        17.0139
+ Coeficient CPU / Model :         0.0816
+ Seconds per Iteration  :         1.0122s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:35:29
+ End of the run         : 2021: 5:19:20:12:57
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1209s
+ Remaining (aprox.)     :         5755s
+ Completed (%)          :        17.3611
+ Coeficient CPU / Model :         0.0806
+ Seconds per Iteration  :         1.0024s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:35:39
+ End of the run         : 2021: 5:19:20:11:34
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1262s
+ Remaining (aprox.)     :         5865s
+ Completed (%)          :        17.7083
+ Coeficient CPU / Model :         0.0825
+ Seconds per Iteration  :         5.3157s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:36:32
+ End of the run         : 2021: 5:19:20:14:18
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:19:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1271s
+ Remaining (aprox.)     :         5784s
+ Completed (%)          :        18.0208
+ Coeficient CPU / Model :         0.0817
+ Seconds per Iteration  :         1.0440s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:36:41
+ End of the run         : 2021: 5:19:20:13: 6
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:24:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1281s
+ Remaining (aprox.)     :         5696s
+ Completed (%)          :        18.3681
+ Coeficient CPU / Model :         0.0808
+ Seconds per Iteration  :         1.0162s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:36:51
+ End of the run         : 2021: 5:19:20:11:48
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:29:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1291s
+ Remaining (aprox.)     :         5610s
+ Completed (%)          :        18.7153
+ Coeficient CPU / Model :         0.0799
+ Seconds per Iteration  :         1.0060s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:37: 2
+ End of the run         : 2021: 5:19:20:10:32
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:30:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1337s
+ Remaining (aprox.)     :         5781s
+ Completed (%)          :        18.7847
+ Coeficient CPU / Model :         0.0824
+ Seconds per Iteration  :        22.7205s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:37:47
+ End of the run         : 2021: 5:19:20:14: 9
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1346s
+ Remaining (aprox.)     :         5706s
+ Completed (%)          :        19.0972
+ Coeficient CPU / Model :         0.0816
+ Seconds per Iteration  :         1.0678s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:37:57
+ End of the run         : 2021: 5:19:20:13: 3
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1357s
+ Remaining (aprox.)     :         5623s
+ Completed (%)          :        19.4444
+ Coeficient CPU / Model :         0.0808
+ Seconds per Iteration  :         1.0367s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:38: 7
+ End of the run         : 2021: 5:19:20:11:50
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1410s
+ Remaining (aprox.)     :         5717s
+ Completed (%)          :        19.7917
+ Coeficient CPU / Model :         0.0825
+ Seconds per Iteration  :         5.3511s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:39: 0
+ End of the run         : 2021: 5:19:20:14:18
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:49:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1420s
+ Remaining (aprox.)     :         5645s
+ Completed (%)          :        20.1042
+ Coeficient CPU / Model :         0.0818
+ Seconds per Iteration  :         1.0755s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:39:10
+ End of the run         : 2021: 5:19:20:13:15
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:54: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1429s
+ Remaining (aprox.)     :         5574s
+ Completed (%)          :        20.4167
+ Coeficient CPU / Model :         0.0811
+ Seconds per Iteration  :         1.0542s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:39:20
+ End of the run         : 2021: 5:19:20:12:14
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 4:58:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1439s
+ Remaining (aprox.)     :         5504s
+ Completed (%)          :        20.7292
+ Coeficient CPU / Model :         0.0804
+ Seconds per Iteration  :         1.0366s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:39:29
+ End of the run         : 2021: 5:19:20:11:13
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1488s
+ Remaining (aprox.)     :         5657s
+ Completed (%)          :        20.8333
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :        16.4590s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:40:18
+ End of the run         : 2021: 5:19:20:14:35
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5: 4:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1498s
+ Remaining (aprox.)     :         5587s
+ Completed (%)          :        21.1458
+ Coeficient CPU / Model :         0.0820
+ Seconds per Iteration  :         1.0616s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:40:28
+ End of the run         : 2021: 5:19:20:13:35
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5: 9: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1507s
+ Remaining (aprox.)     :         5518s
+ Completed (%)          :        21.4583
+ Coeficient CPU / Model :         0.0813
+ Seconds per Iteration  :         1.0512s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:40:37
+ End of the run         : 2021: 5:19:20:12:36
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:13:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1517s
+ Remaining (aprox.)     :         5451s
+ Completed (%)          :        21.7708
+ Coeficient CPU / Model :         0.0807
+ Seconds per Iteration  :         1.0428s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:40:47
+ End of the run         : 2021: 5:19:20:11:38
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1563s
+ Remaining (aprox.)     :         5583s
+ Completed (%)          :        21.8750
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :        15.4077s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:41:33
+ End of the run         : 2021: 5:19:20:14:36
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:19:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1572s
+ Remaining (aprox.)     :         5516s
+ Completed (%)          :        22.1875
+ Coeficient CPU / Model :         0.0820
+ Seconds per Iteration  :         1.0599s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:41:43
+ End of the run         : 2021: 5:19:20:13:39
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:24: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1582s
+ Remaining (aprox.)     :         5450s
+ Completed (%)          :        22.5000
+ Coeficient CPU / Model :         0.0814
+ Seconds per Iteration  :         1.0496s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:41:52
+ End of the run         : 2021: 5:19:20:12:42
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:28:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1591s
+ Remaining (aprox.)     :         5385s
+ Completed (%)          :        22.8125
+ Coeficient CPU / Model :         0.0808
+ Seconds per Iteration  :         1.0391s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:42: 1
+ End of the run         : 2021: 5:19:20:11:47
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1637s
+ Remaining (aprox.)     :         5508s
+ Completed (%)          :        22.9167
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :        15.3724s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:42:47
+ End of the run         : 2021: 5:19:20:14:36
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:34:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1647s
+ Remaining (aprox.)     :         5444s
+ Completed (%)          :        23.2292
+ Coeficient CPU / Model :         0.0821
+ Seconds per Iteration  :         1.0578s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:42:57
+ End of the run         : 2021: 5:19:20:13:41
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:39: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1656s
+ Remaining (aprox.)     :         5380s
+ Completed (%)          :        23.5417
+ Coeficient CPU / Model :         0.0815
+ Seconds per Iteration  :         1.0550s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:43: 6
+ End of the run         : 2021: 5:19:20:12:47
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:43:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1666s
+ Remaining (aprox.)     :         5318s
+ Completed (%)          :        23.8542
+ Coeficient CPU / Model :         0.0808
+ Seconds per Iteration  :         1.0471s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:43:16
+ End of the run         : 2021: 5:19:20:11:55
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1712s
+ Remaining (aprox.)     :         5434s
+ Completed (%)          :        23.9583
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :        15.3737s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:44: 2
+ End of the run         : 2021: 5:19:20:14:37
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:49:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1722s
+ Remaining (aprox.)     :         5373s
+ Completed (%)          :        24.2708
+ Coeficient CPU / Model :         0.0821
+ Seconds per Iteration  :         1.0838s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:44:12
+ End of the run         : 2021: 5:19:20:13:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:54: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1731s
+ Remaining (aprox.)     :         5312s
+ Completed (%)          :        24.5833
+ Coeficient CPU / Model :         0.0815
+ Seconds per Iteration  :         1.0509s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:44:21
+ End of the run         : 2021: 5:19:20:12:53
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 5:58:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1740s
+ Remaining (aprox.)     :         5252s
+ Completed (%)          :        24.8958
+ Coeficient CPU / Model :         0.0809
+ Seconds per Iteration  :         1.0466s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:44:31
+ End of the run         : 2021: 5:19:20:12: 3
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1791s
+ Remaining (aprox.)     :         5373s
+ Completed (%)          :        25.0000
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :        16.7490s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:45:21
+ End of the run         : 2021: 5:19:20:14:54
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6: 4:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1800s
+ Remaining (aprox.)     :         5313s
+ Completed (%)          :        25.3125
+ Coeficient CPU / Model :         0.0823
+ Seconds per Iteration  :         1.0514s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:45:30
+ End of the run         : 2021: 5:19:20:14: 3
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6: 9: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1810s
+ Remaining (aprox.)     :         5253s
+ Completed (%)          :        25.6250
+ Coeficient CPU / Model :         0.0818
+ Seconds per Iteration  :         1.0453s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:45:40
+ End of the run         : 2021: 5:19:20:13:13
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:13:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1819s
+ Remaining (aprox.)     :         5195s
+ Completed (%)          :        25.9375
+ Coeficient CPU / Model :         0.0812
+ Seconds per Iteration  :         1.0404s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:45:49
+ End of the run         : 2021: 5:19:20:12:24
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1868s
+ Remaining (aprox.)     :         5306s
+ Completed (%)          :        26.0417
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :        16.3117s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:46:38
+ End of the run         : 2021: 5:19:20:15: 4
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:19:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1877s
+ Remaining (aprox.)     :         5247s
+ Completed (%)          :        26.3542
+ Coeficient CPU / Model :         0.0825
+ Seconds per Iteration  :         1.0538s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:46:48
+ End of the run         : 2021: 5:19:20:14:15
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:24: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1887s
+ Remaining (aprox.)     :         5190s
+ Completed (%)          :        26.6667
+ Coeficient CPU / Model :         0.0819
+ Seconds per Iteration  :         1.0521s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:46:57
+ End of the run         : 2021: 5:19:20:13:27
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:28:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1896s
+ Remaining (aprox.)     :         5133s
+ Completed (%)          :        26.9792
+ Coeficient CPU / Model :         0.0814
+ Seconds per Iteration  :         1.0424s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:47: 6
+ End of the run         : 2021: 5:19:20:12:40
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1944s
+ Remaining (aprox.)     :         5234s
+ Completed (%)          :        27.0833
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :        15.8703s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:47:54
+ End of the run         : 2021: 5:19:20:15: 9
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:34:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1954s
+ Remaining (aprox.)     :         5178s
+ Completed (%)          :        27.3958
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0767s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:48: 4
+ End of the run         : 2021: 5:19:20:14:22
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:39: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1963s
+ Remaining (aprox.)     :         5122s
+ Completed (%)          :        27.7083
+ Coeficient CPU / Model :         0.0820
+ Seconds per Iteration  :         1.0589s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:48:13
+ End of the run         : 2021: 5:19:20:13:36
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:43:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         1972s
+ Remaining (aprox.)     :         5068s
+ Completed (%)          :        28.0208
+ Coeficient CPU / Model :         0.0815
+ Seconds per Iteration  :         1.0471s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:48:23
+ End of the run         : 2021: 5:19:20:12:51
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2019s
+ Remaining (aprox.)     :         5159s
+ Completed (%)          :        28.1250
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :        15.3570s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:49: 9
+ End of the run         : 2021: 5:19:20:15: 8
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:49:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2028s
+ Remaining (aprox.)     :         5104s
+ Completed (%)          :        28.4375
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0577s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:49:18
+ End of the run         : 2021: 5:19:20:14:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:54: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2038s
+ Remaining (aprox.)     :         5050s
+ Completed (%)          :        28.7500
+ Coeficient CPU / Model :         0.0820
+ Seconds per Iteration  :         1.0552s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:49:28
+ End of the run         : 2021: 5:19:20:13:39
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 6:58:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2047s
+ Remaining (aprox.)     :         4997s
+ Completed (%)          :        29.0625
+ Coeficient CPU / Model :         0.0815
+ Seconds per Iteration  :         1.0471s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:49:37
+ End of the run         : 2021: 5:19:20:12:55
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2096s
+ Remaining (aprox.)     :         5091s
+ Completed (%)          :        29.1667
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :        16.3903s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:50:26
+ End of the run         : 2021: 5:19:20:15:18
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7: 4:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2106s
+ Remaining (aprox.)     :         5038s
+ Completed (%)          :        29.4792
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         1.0628s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:50:36
+ End of the run         : 2021: 5:19:20:14:34
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7: 9:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2116s
+ Remaining (aprox.)     :         4979s
+ Completed (%)          :        29.8264
+ Coeficient CPU / Model :         0.0821
+ Seconds per Iteration  :         1.0071s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:50:46
+ End of the run         : 2021: 5:19:20:13:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7:14:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2126s
+ Remaining (aprox.)     :         4920s
+ Completed (%)          :        30.1736
+ Coeficient CPU / Model :         0.0816
+ Seconds per Iteration  :         1.0151s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:50:56
+ End of the run         : 2021: 5:19:20:12:57
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7:16: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2172s
+ Remaining (aprox.)     :         5003s
+ Completed (%)          :        30.2778
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :        15.4670s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:51:42
+ End of the run         : 2021: 5:19:20:15: 6
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7:20:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2182s
+ Remaining (aprox.)     :         4951s
+ Completed (%)          :        30.5903
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0334s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:51:52
+ End of the run         : 2021: 5:19:20:14:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7:25:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2192s
+ Remaining (aprox.)     :         4894s
+ Completed (%)          :        30.9375
+ Coeficient CPU / Model :         0.0820
+ Seconds per Iteration  :         1.0205s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:52: 2
+ End of the run         : 2021: 5:19:20:13:36
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2244s
+ Remaining (aprox.)     :         4938s
+ Completed (%)          :        31.2500
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         5.8141s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:52:54
+ End of the run         : 2021: 5:19:20:15:13
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2254s
+ Remaining (aprox.)     :         4881s
+ Completed (%)          :        31.5972
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0227s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:53: 5
+ End of the run         : 2021: 5:19:20:14:26
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2264s
+ Remaining (aprox.)     :         4825s
+ Completed (%)          :        31.9444
+ Coeficient CPU / Model :         0.0821
+ Seconds per Iteration  :         1.0001s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:53:15
+ End of the run         : 2021: 5:19:20:13:40
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2317s
+ Remaining (aprox.)     :         4860s
+ Completed (%)          :        32.2917
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         5.3002s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:54: 8
+ End of the run         : 2021: 5:19:20:15: 8
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7:49:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2327s
+ Remaining (aprox.)     :         4811s
+ Completed (%)          :        32.6042
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0611s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:54:17
+ End of the run         : 2021: 5:19:20:14:28
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7:54: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2337s
+ Remaining (aprox.)     :         4762s
+ Completed (%)          :        32.9167
+ Coeficient CPU / Model :         0.0822
+ Seconds per Iteration  :         1.0752s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:54:27
+ End of the run         : 2021: 5:19:20:13:50
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 7:59: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2347s
+ Remaining (aprox.)     :         4709s
+ Completed (%)          :        33.2639
+ Coeficient CPU / Model :         0.0817
+ Seconds per Iteration  :         1.0462s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:54:37
+ End of the run         : 2021: 5:19:20:13: 7
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2395s
+ Remaining (aprox.)     :         4791s
+ Completed (%)          :        33.3333
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :        24.1255s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:55:25
+ End of the run         : 2021: 5:19:20:15:17
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8: 4:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2405s
+ Remaining (aprox.)     :         4743s
+ Completed (%)          :        33.6458
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         1.0559s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:55:35
+ End of the run         : 2021: 5:19:20:14:39
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8: 9:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2415s
+ Remaining (aprox.)     :         4690s
+ Completed (%)          :        33.9931
+ Coeficient CPU / Model :         0.0823
+ Seconds per Iteration  :         1.0383s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:55:45
+ End of the run         : 2021: 5:19:20:13:56
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8:14:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2425s
+ Remaining (aprox.)     :         4638s
+ Completed (%)          :        34.3403
+ Coeficient CPU / Model :         0.0818
+ Seconds per Iteration  :         1.0258s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:55:56
+ End of the run         : 2021: 5:19:20:13:14
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8:16: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2472s
+ Remaining (aprox.)     :         4705s
+ Completed (%)          :        34.4444
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :        15.4670s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:56:42
+ End of the run         : 2021: 5:19:20:15: 8
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8:21: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2482s
+ Remaining (aprox.)     :         4653s
+ Completed (%)          :        34.7917
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0236s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:56:52
+ End of the run         : 2021: 5:19:20:14:25
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8:26: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2492s
+ Remaining (aprox.)     :         4601s
+ Completed (%)          :        35.1389
+ Coeficient CPU / Model :         0.0821
+ Seconds per Iteration  :         1.0206s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:57: 2
+ End of the run         : 2021: 5:19:20:13:44
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2543s
+ Remaining (aprox.)     :         4639s
+ Completed (%)          :        35.4167
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         6.3945s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:57:54
+ End of the run         : 2021: 5:19:20:15:13
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8:34:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2553s
+ Remaining (aprox.)     :         4592s
+ Completed (%)          :        35.7292
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         1.0330s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:58: 3
+ End of the run         : 2021: 5:19:20:14:36
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8:39:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2563s
+ Remaining (aprox.)     :         4542s
+ Completed (%)          :        36.0764
+ Coeficient CPU / Model :         0.0822
+ Seconds per Iteration  :         1.0243s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:58:13
+ End of the run         : 2021: 5:19:20:13:55
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8:44:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2573s
+ Remaining (aprox.)     :         4492s
+ Completed (%)          :        36.4236
+ Coeficient CPU / Model :         0.0818
+ Seconds per Iteration  :         1.0251s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:58:23
+ End of the run         : 2021: 5:19:20:13:16
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8:46: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2620s
+ Remaining (aprox.)     :         4552s
+ Completed (%)          :        36.5278
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :        15.4310s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:59:10
+ End of the run         : 2021: 5:19:20:15: 2
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8:50:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2629s
+ Remaining (aprox.)     :         4507s
+ Completed (%)          :        36.8403
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0352s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:59:19
+ End of the run         : 2021: 5:19:20:14:27
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 8:55:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2639s
+ Remaining (aprox.)     :         4458s
+ Completed (%)          :        37.1875
+ Coeficient CPU / Model :         0.0822
+ Seconds per Iteration  :         1.0300s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:18:59:29
+ End of the run         : 2021: 5:19:20:13:48
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2695s
+ Remaining (aprox.)     :         4491s
+ Completed (%)          :        37.5000
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         6.1510s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 0:25
+ End of the run         : 2021: 5:19:20:15:16
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9: 4:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2704s
+ Remaining (aprox.)     :         4447s
+ Completed (%)          :        37.8125
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0336s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 0:34
+ End of the run         : 2021: 5:19:20:14:42
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9: 9:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2714s
+ Remaining (aprox.)     :         4399s
+ Completed (%)          :        38.1597
+ Coeficient CPU / Model :         0.0823
+ Seconds per Iteration  :         1.0353s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 0:44
+ End of the run         : 2021: 5:19:20:14: 4
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9:14: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2724s
+ Remaining (aprox.)     :         4356s
+ Completed (%)          :        38.4722
+ Coeficient CPU / Model :         0.0820
+ Seconds per Iteration  :         1.0543s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 0:54
+ End of the run         : 2021: 5:19:20:13:31
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9:15:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2770s
+ Remaining (aprox.)     :         4411s
+ Completed (%)          :        38.5764
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :        15.5126s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 1:40
+ End of the run         : 2021: 5:19:20:15:12
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9:20:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2781s
+ Remaining (aprox.)     :         4363s
+ Completed (%)          :        38.9236
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         1.0366s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 1:51
+ End of the run         : 2021: 5:19:20:14:35
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9:25:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2791s
+ Remaining (aprox.)     :         4316s
+ Completed (%)          :        39.2708
+ Coeficient CPU / Model :         0.0823
+ Seconds per Iteration  :         1.0379s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 2: 1
+ End of the run         : 2021: 5:19:20:13:58
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2844s
+ Remaining (aprox.)     :         4341s
+ Completed (%)          :        39.5833
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         5.8560s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 2:54
+ End of the run         : 2021: 5:19:20:15:15
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2854s
+ Remaining (aprox.)     :         4293s
+ Completed (%)          :        39.9306
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         1.0113s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 3: 4
+ End of the run         : 2021: 5:19:20:14:38
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2864s
+ Remaining (aprox.)     :         4247s
+ Completed (%)          :        40.2778
+ Coeficient CPU / Model :         0.0823
+ Seconds per Iteration  :         1.0065s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 3:14
+ End of the run         : 2021: 5:19:20:14: 1
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2917s
+ Remaining (aprox.)     :         4264s
+ Completed (%)          :        40.6250
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         5.3554s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 4: 8
+ End of the run         : 2021: 5:19:20:15:12
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9:49:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2927s
+ Remaining (aprox.)     :         4223s
+ Completed (%)          :        40.9375
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0391s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 4:17
+ End of the run         : 2021: 5:19:20:14:40
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9:54:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2937s
+ Remaining (aprox.)     :         4177s
+ Completed (%)          :        41.2847
+ Coeficient CPU / Model :         0.0823
+ Seconds per Iteration  :         1.0145s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 4:27
+ End of the run         : 2021: 5:19:20:14: 5
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1: 9:59:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2947s
+ Remaining (aprox.)     :         4132s
+ Completed (%)          :        41.6319
+ Coeficient CPU / Model :         0.0819
+ Seconds per Iteration  :         1.0020s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 4:37
+ End of the run         : 2021: 5:19:20:13:29
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10: 0:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         2996s
+ Remaining (aprox.)     :         4189s
+ Completed (%)          :        41.7014
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :        24.5830s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 5:26
+ End of the run         : 2021: 5:19:20:15:15
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3005s
+ Remaining (aprox.)     :         4148s
+ Completed (%)          :        42.0139
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0406s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 5:36
+ End of the run         : 2021: 5:19:20:14:44
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3016s
+ Remaining (aprox.)     :         4104s
+ Completed (%)          :        42.3611
+ Coeficient CPU / Model :         0.0824
+ Seconds per Iteration  :         1.0267s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 5:46
+ End of the run         : 2021: 5:19:20:14:10
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3070s
+ Remaining (aprox.)     :         4118s
+ Completed (%)          :        42.7083
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         5.4047s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 6:40
+ End of the run         : 2021: 5:19:20:15:19
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:19:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3079s
+ Remaining (aprox.)     :         4079s
+ Completed (%)          :        43.0208
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0600s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 6:49
+ End of the run         : 2021: 5:19:20:14:49
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:24: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3089s
+ Remaining (aprox.)     :         4039s
+ Completed (%)          :        43.3333
+ Coeficient CPU / Model :         0.0825
+ Seconds per Iteration  :         1.0387s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 6:59
+ End of the run         : 2021: 5:19:20:14:18
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:29: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3099s
+ Remaining (aprox.)     :         3996s
+ Completed (%)          :        43.6806
+ Coeficient CPU / Model :         0.0821
+ Seconds per Iteration  :         1.0408s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 7: 9
+ End of the run         : 2021: 5:19:20:13:46
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3148s
+ Remaining (aprox.)     :         4047s
+ Completed (%)          :        43.7500
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :        24.2365s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 7:58
+ End of the run         : 2021: 5:19:20:15:25
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:34:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3157s
+ Remaining (aprox.)     :         4008s
+ Completed (%)          :        44.0625
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0330s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 8: 7
+ End of the run         : 2021: 5:19:20:14:55
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:39:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3167s
+ Remaining (aprox.)     :         3964s
+ Completed (%)          :        44.4097
+ Coeficient CPU / Model :         0.0825
+ Seconds per Iteration  :         1.0066s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 8:17
+ End of the run         : 2021: 5:19:20:14:22
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:44:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3177s
+ Remaining (aprox.)     :         3921s
+ Completed (%)          :        44.7569
+ Coeficient CPU / Model :         0.0822
+ Seconds per Iteration  :         1.0066s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 8:27
+ End of the run         : 2021: 5:19:20:13:49
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:45:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3226s
+ Remaining (aprox.)     :         3970s
+ Completed (%)          :        44.8264
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :        24.3291s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 9:16
+ End of the run         : 2021: 5:19:20:15:27
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:50:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3236s
+ Remaining (aprox.)     :         3927s
+ Completed (%)          :        45.1736
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         0.9932s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 9:26
+ End of the run         : 2021: 5:19:20:14:53
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:10:55:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3245s
+ Remaining (aprox.)     :         3884s
+ Completed (%)          :        45.5208
+ Coeficient CPU / Model :         0.0825
+ Seconds per Iteration  :         0.9858s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19: 9:36
+ End of the run         : 2021: 5:19:20:14:20
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3304s
+ Remaining (aprox.)     :         3905s
+ Completed (%)          :        45.8333
+ Coeficient CPU / Model :         0.0834
+ Seconds per Iteration  :         6.4918s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:10:34
+ End of the run         : 2021: 5:19:20:15:39
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3314s
+ Remaining (aprox.)     :         3862s
+ Completed (%)          :        46.1806
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         0.9951s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:10:44
+ End of the run         : 2021: 5:19:20:15: 6
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3324s
+ Remaining (aprox.)     :         3820s
+ Completed (%)          :        46.5278
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         0.9988s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:10:54
+ End of the run         : 2021: 5:19:20:14:34
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3380s
+ Remaining (aprox.)     :         3831s
+ Completed (%)          :        46.8750
+ Coeficient CPU / Model :         0.0835
+ Seconds per Iteration  :         5.6520s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:11:50
+ End of the run         : 2021: 5:19:20:15:42
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:19:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3390s
+ Remaining (aprox.)     :         3794s
+ Completed (%)          :        47.1875
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         1.0261s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:12: 0
+ End of the run         : 2021: 5:19:20:15:14
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:24:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3400s
+ Remaining (aprox.)     :         3752s
+ Completed (%)          :        47.5347
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0241s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:12:10
+ End of the run         : 2021: 5:19:20:14:43
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:29:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3410s
+ Remaining (aprox.)     :         3712s
+ Completed (%)          :        47.8819
+ Coeficient CPU / Model :         0.0824
+ Seconds per Iteration  :         1.0220s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:12:20
+ End of the run         : 2021: 5:19:20:14:12
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:30:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3457s
+ Remaining (aprox.)     :         3752s
+ Completed (%)          :        47.9514
+ Coeficient CPU / Model :         0.0835
+ Seconds per Iteration  :        23.5291s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:13: 7
+ End of the run         : 2021: 5:19:20:15:40
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3466s
+ Remaining (aprox.)     :         3716s
+ Completed (%)          :        48.2639
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0459s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:13:17
+ End of the run         : 2021: 5:19:20:15:13
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:39:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3476s
+ Remaining (aprox.)     :         3680s
+ Completed (%)          :        48.5764
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0580s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:13:26
+ End of the run         : 2021: 5:19:20:14:46
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:44:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3486s
+ Remaining (aprox.)     :         3640s
+ Completed (%)          :        48.9236
+ Coeficient CPU / Model :         0.0825
+ Seconds per Iteration  :         1.0284s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:13:36
+ End of the run         : 2021: 5:19:20:14:17
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:45:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3532s
+ Remaining (aprox.)     :         3677s
+ Completed (%)          :        48.9931
+ Coeficient CPU / Model :         0.0834
+ Seconds per Iteration  :        22.6964s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:14:22
+ End of the run         : 2021: 5:19:20:15:39
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:50: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3541s
+ Remaining (aprox.)     :         3641s
+ Completed (%)          :        49.3056
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0763s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:14:32
+ End of the run         : 2021: 5:19:20:15:13
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:54:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3551s
+ Remaining (aprox.)     :         3605s
+ Completed (%)          :        49.6181
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0501s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:14:41
+ End of the run         : 2021: 5:19:20:14:47
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:11:59: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3561s
+ Remaining (aprox.)     :         3570s
+ Completed (%)          :        49.9306
+ Coeficient CPU / Model :         0.0825
+ Seconds per Iteration  :         1.0854s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:14:51
+ End of the run         : 2021: 5:19:20:14:22
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3609s
+ Remaining (aprox.)     :         3609s
+ Completed (%)          :        50.0000
+ Coeficient CPU / Model :         0.0835
+ Seconds per Iteration  :        24.0804s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:15:39
+ End of the run         : 2021: 5:19:20:15:48
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12: 4:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3618s
+ Remaining (aprox.)     :         3573s
+ Completed (%)          :        50.3125
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         1.0262s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:15:48
+ End of the run         : 2021: 5:19:20:15:22
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12: 9:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3628s
+ Remaining (aprox.)     :         3534s
+ Completed (%)          :        50.6597
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0187s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:15:58
+ End of the run         : 2021: 5:19:20:14:52
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12:14: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3638s
+ Remaining (aprox.)     :         3499s
+ Completed (%)          :        50.9722
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0399s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:16: 8
+ End of the run         : 2021: 5:19:20:14:27
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12:15:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3684s
+ Remaining (aprox.)     :         3528s
+ Completed (%)          :        51.0764
+ Coeficient CPU / Model :         0.0835
+ Seconds per Iteration  :        15.3397s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:16:54
+ End of the run         : 2021: 5:19:20:15:42
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12:20:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3694s
+ Remaining (aprox.)     :         3489s
+ Completed (%)          :        51.4236
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0231s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:17: 4
+ End of the run         : 2021: 5:19:20:15:14
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12:25:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3704s
+ Remaining (aprox.)     :         3451s
+ Completed (%)          :        51.7708
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0274s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:17:14
+ End of the run         : 2021: 5:19:20:14:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3756s
+ Remaining (aprox.)     :         3456s
+ Completed (%)          :        52.0833
+ Coeficient CPU / Model :         0.0835
+ Seconds per Iteration  :         5.8268s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:18: 7
+ End of the run         : 2021: 5:19:20:15:43
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3767s
+ Remaining (aprox.)     :         3417s
+ Completed (%)          :        52.4306
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         1.0184s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:18:17
+ End of the run         : 2021: 5:19:20:15:15
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3777s
+ Remaining (aprox.)     :         3379s
+ Completed (%)          :        52.7778
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0213s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:18:27
+ End of the run         : 2021: 5:19:20:14:47
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12:44:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3786s
+ Remaining (aprox.)     :         3345s
+ Completed (%)          :        53.0903
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0253s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:18:36
+ End of the run         : 2021: 5:19:20:14:22
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12:46: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3835s
+ Remaining (aprox.)     :         3374s
+ Completed (%)          :        53.1944
+ Coeficient CPU / Model :         0.0835
+ Seconds per Iteration  :        16.2903s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:19:25
+ End of the run         : 2021: 5:19:20:15:40
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12:51: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3845s
+ Remaining (aprox.)     :         3336s
+ Completed (%)          :        53.5417
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0155s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:19:35
+ End of the run         : 2021: 5:19:20:15:12
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:12:56: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3855s
+ Remaining (aprox.)     :         3299s
+ Completed (%)          :        53.8889
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0075s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:19:45
+ End of the run         : 2021: 5:19:20:14:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3909s
+ Remaining (aprox.)     :         3308s
+ Completed (%)          :        54.1667
+ Coeficient CPU / Model :         0.0835
+ Seconds per Iteration  :         6.7416s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:20:39
+ End of the run         : 2021: 5:19:20:15:47
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13: 4:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3919s
+ Remaining (aprox.)     :         3274s
+ Completed (%)          :        54.4792
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         1.0420s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:20:49
+ End of the run         : 2021: 5:19:20:15:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13: 9:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3929s
+ Remaining (aprox.)     :         3237s
+ Completed (%)          :        54.8264
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0030s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:20:59
+ End of the run         : 2021: 5:19:20:14:56
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13:14:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3939s
+ Remaining (aprox.)     :         3200s
+ Completed (%)          :        55.1736
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0075s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:21: 9
+ End of the run         : 2021: 5:19:20:14:29
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13:16: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3985s
+ Remaining (aprox.)     :         3224s
+ Completed (%)          :        55.2778
+ Coeficient CPU / Model :         0.0834
+ Seconds per Iteration  :        15.2953s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:21:55
+ End of the run         : 2021: 5:19:20:15:39
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13:21: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         3995s
+ Remaining (aprox.)     :         3187s
+ Completed (%)          :        55.6250
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         0.9999s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:22: 5
+ End of the run         : 2021: 5:19:20:15:12
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13:26: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4004s
+ Remaining (aprox.)     :         3150s
+ Completed (%)          :        55.9722
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         0.9968s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:22:15
+ End of the run         : 2021: 5:19:20:14:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4055s
+ Remaining (aprox.)     :         3154s
+ Completed (%)          :        56.2500
+ Coeficient CPU / Model :         0.0835
+ Seconds per Iteration  :         6.3624s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:23: 6
+ End of the run         : 2021: 5:19:20:15:40
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4066s
+ Remaining (aprox.)     :         3118s
+ Completed (%)          :        56.5972
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         1.0284s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:23:16
+ End of the run         : 2021: 5:19:20:15:14
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4076s
+ Remaining (aprox.)     :         3082s
+ Completed (%)          :        56.9444
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0050s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:23:26
+ End of the run         : 2021: 5:19:20:14:48
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4128s
+ Remaining (aprox.)     :         3077s
+ Completed (%)          :        57.2917
+ Coeficient CPU / Model :         0.0834
+ Seconds per Iteration  :         5.2686s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:24:19
+ End of the run         : 2021: 5:19:20:15:36
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13:50: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4138s
+ Remaining (aprox.)     :         3041s
+ Completed (%)          :        57.6389
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0026s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:24:29
+ End of the run         : 2021: 5:19:20:15:10
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:13:55: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4148s
+ Remaining (aprox.)     :         3006s
+ Completed (%)          :        57.9861
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0009s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:24:39
+ End of the run         : 2021: 5:19:20:14:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4205s
+ Remaining (aprox.)     :         3003s
+ Completed (%)          :        58.3333
+ Coeficient CPU / Model :         0.0834
+ Seconds per Iteration  :         5.6096s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:25:35
+ End of the run         : 2021: 5:19:20:15:38
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4215s
+ Remaining (aprox.)     :         2968s
+ Completed (%)          :        58.6806
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0119s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:25:45
+ End of the run         : 2021: 5:19:20:15:13
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4225s
+ Remaining (aprox.)     :         2932s
+ Completed (%)          :        59.0278
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         0.9989s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:25:55
+ End of the run         : 2021: 5:19:20:14:48
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4278s
+ Remaining (aprox.)     :         2927s
+ Completed (%)          :        59.3750
+ Coeficient CPU / Model :         0.0834
+ Seconds per Iteration  :         5.3113s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:26:48
+ End of the run         : 2021: 5:19:20:15:35
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14:20: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4288s
+ Remaining (aprox.)     :         2892s
+ Completed (%)          :        59.7222
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0054s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:26:58
+ End of the run         : 2021: 5:19:20:15:10
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14:25: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4298s
+ Remaining (aprox.)     :         2857s
+ Completed (%)          :        60.0694
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         0.9908s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:27: 8
+ End of the run         : 2021: 5:19:20:14:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4350s
+ Remaining (aprox.)     :         2850s
+ Completed (%)          :        60.4167
+ Coeficient CPU / Model :         0.0834
+ Seconds per Iteration  :         5.2713s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:28: 1
+ End of the run         : 2021: 5:19:20:15:31
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14:35:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4361s
+ Remaining (aprox.)     :         2812s
+ Completed (%)          :        60.7986
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         0.9767s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:28:11
+ End of the run         : 2021: 5:19:20:15: 4
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14:41: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4372s
+ Remaining (aprox.)     :         2774s
+ Completed (%)          :        61.1806
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         0.9903s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:28:22
+ End of the run         : 2021: 5:19:20:14:37
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4423s
+ Remaining (aprox.)     :         2773s
+ Completed (%)          :        61.4583
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         6.3113s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:29:13
+ End of the run         : 2021: 5:19:20:15:26
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14:50: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4433s
+ Remaining (aprox.)     :         2739s
+ Completed (%)          :        61.8056
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0174s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:29:23
+ End of the run         : 2021: 5:19:20:15: 3
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:14:55: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4443s
+ Remaining (aprox.)     :         2705s
+ Completed (%)          :        62.1528
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         1.0061s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:29:33
+ End of the run         : 2021: 5:19:20:14:39
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4499s
+ Remaining (aprox.)     :         2699s
+ Completed (%)          :        62.5000
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         5.6280s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:30:29
+ End of the run         : 2021: 5:19:20:15:29
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15: 4:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4508s
+ Remaining (aprox.)     :         2669s
+ Completed (%)          :        62.8125
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0431s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:30:39
+ End of the run         : 2021: 5:19:20:15: 8
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15: 9:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4519s
+ Remaining (aprox.)     :         2636s
+ Completed (%)          :        63.1597
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0313s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:30:49
+ End of the run         : 2021: 5:19:20:14:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:14: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4529s
+ Remaining (aprox.)     :         2606s
+ Completed (%)          :        63.4722
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0922s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:30:59
+ End of the run         : 2021: 5:19:20:14:25
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:15:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4575s
+ Remaining (aprox.)     :         2621s
+ Completed (%)          :        63.5764
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :        15.3543s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:31:45
+ End of the run         : 2021: 5:19:20:15:26
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:20: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4584s
+ Remaining (aprox.)     :         2591s
+ Completed (%)          :        63.8889
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0567s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:31:54
+ End of the run         : 2021: 5:19:20:15: 6
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:24:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4594s
+ Remaining (aprox.)     :         2561s
+ Completed (%)          :        64.2014
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0461s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:32: 4
+ End of the run         : 2021: 5:19:20:14:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:29:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4604s
+ Remaining (aprox.)     :         2528s
+ Completed (%)          :        64.5486
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0327s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:32:14
+ End of the run         : 2021: 5:19:20:14:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:31: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4650s
+ Remaining (aprox.)     :         2542s
+ Completed (%)          :        64.6528
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :        15.4723s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:33: 0
+ End of the run         : 2021: 5:19:20:15:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:35:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4660s
+ Remaining (aprox.)     :         2513s
+ Completed (%)          :        64.9653
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0463s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:33:10
+ End of the run         : 2021: 5:19:20:15: 3
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4669s
+ Remaining (aprox.)     :         2483s
+ Completed (%)          :        65.2778
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0500s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:33:19
+ End of the run         : 2021: 5:19:20:14:43
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:44:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4679s
+ Remaining (aprox.)     :         2454s
+ Completed (%)          :        65.5903
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0400s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:33:29
+ End of the run         : 2021: 5:19:20:14:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:46: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4725s
+ Remaining (aprox.)     :         2467s
+ Completed (%)          :        65.6944
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :        15.3911s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:34:15
+ End of the run         : 2021: 5:19:20:15:22
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:50:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4735s
+ Remaining (aprox.)     :         2438s
+ Completed (%)          :        66.0069
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0873s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:34:25
+ End of the run         : 2021: 5:19:20:15: 3
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:55: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4744s
+ Remaining (aprox.)     :         2409s
+ Completed (%)          :        66.3194
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0647s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:34:34
+ End of the run         : 2021: 5:19:20:14:44
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:15:59:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4754s
+ Remaining (aprox.)     :         2380s
+ Completed (%)          :        66.6319
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0734s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:34:44
+ End of the run         : 2021: 5:19:20:14:25
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16: 0:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4802s
+ Remaining (aprox.)     :         2397s
+ Completed (%)          :        66.7014
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :        24.1516s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:35:32
+ End of the run         : 2021: 5:19:20:15:30
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4811s
+ Remaining (aprox.)     :         2368s
+ Completed (%)          :        67.0139
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0424s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:35:42
+ End of the run         : 2021: 5:19:20:15:10
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4822s
+ Remaining (aprox.)     :         2336s
+ Completed (%)          :        67.3611
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0211s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:35:52
+ End of the run         : 2021: 5:19:20:14:48
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4875s
+ Remaining (aprox.)     :         2325s
+ Completed (%)          :        67.7083
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         5.3107s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:36:45
+ End of the run         : 2021: 5:19:20:15:30
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:19:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4884s
+ Remaining (aprox.)     :         2296s
+ Completed (%)          :        68.0208
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0294s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:36:54
+ End of the run         : 2021: 5:19:20:15:11
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:24:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4894s
+ Remaining (aprox.)     :         2264s
+ Completed (%)          :        68.3681
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0203s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:37: 4
+ End of the run         : 2021: 5:19:20:14:49
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:29:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4904s
+ Remaining (aprox.)     :         2233s
+ Completed (%)          :        68.7153
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0207s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:37:15
+ End of the run         : 2021: 5:19:20:14:28
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:31: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4951s
+ Remaining (aprox.)     :         2243s
+ Completed (%)          :        68.8194
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :        15.4014s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:38: 1
+ End of the run         : 2021: 5:19:20:15:24
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:35:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4960s
+ Remaining (aprox.)     :         2214s
+ Completed (%)          :        69.1319
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0532s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:38:10
+ End of the run         : 2021: 5:19:20:15: 5
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4970s
+ Remaining (aprox.)     :         2186s
+ Completed (%)          :        69.4444
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0526s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:38:20
+ End of the run         : 2021: 5:19:20:14:47
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:44:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         4979s
+ Remaining (aprox.)     :         2158s
+ Completed (%)          :        69.7569
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0331s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:38:29
+ End of the run         : 2021: 5:19:20:14:28
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:46: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5025s
+ Remaining (aprox.)     :         2168s
+ Completed (%)          :        69.8611
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :        15.3498s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:39:15
+ End of the run         : 2021: 5:19:20:15:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:50:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5034s
+ Remaining (aprox.)     :         2139s
+ Completed (%)          :        70.1736
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0229s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:39:24
+ End of the run         : 2021: 5:19:20:15: 4
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:16:55:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5044s
+ Remaining (aprox.)     :         2108s
+ Completed (%)          :        70.5208
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0224s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:39:35
+ End of the run         : 2021: 5:19:20:14:43
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5100s
+ Remaining (aprox.)     :         2100s
+ Completed (%)          :        70.8333
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         6.1385s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:40:30
+ End of the run         : 2021: 5:19:20:15:30
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17: 4:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5109s
+ Remaining (aprox.)     :         2072s
+ Completed (%)          :        71.1458
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0475s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:40:39
+ End of the run         : 2021: 5:19:20:15:11
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17: 9:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5119s
+ Remaining (aprox.)     :         2041s
+ Completed (%)          :        71.4931
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0234s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:40:49
+ End of the run         : 2021: 5:19:20:14:51
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17:14:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5129s
+ Remaining (aprox.)     :         2010s
+ Completed (%)          :        71.8403
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         1.0130s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:41: 0
+ End of the run         : 2021: 5:19:20:14:30
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17:16: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5175s
+ Remaining (aprox.)     :         2018s
+ Completed (%)          :        71.9444
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :        15.3206s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:41:46
+ End of the run         : 2021: 5:19:20:15:24
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17:21: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5185s
+ Remaining (aprox.)     :         1987s
+ Completed (%)          :        72.2917
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0101s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:41:56
+ End of the run         : 2021: 5:19:20:15: 3
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17:26: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5196s
+ Remaining (aprox.)     :         1957s
+ Completed (%)          :        72.6389
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0092s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:42: 6
+ End of the run         : 2021: 5:19:20:14:43
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5246s
+ Remaining (aprox.)     :         1948s
+ Completed (%)          :        72.9167
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         6.3373s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:42:56
+ End of the run         : 2021: 5:19:20:15:25
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5256s
+ Remaining (aprox.)     :         1918s
+ Completed (%)          :        73.2639
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0087s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:43: 6
+ End of the run         : 2021: 5:19:20:15: 5
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5266s
+ Remaining (aprox.)     :         1888s
+ Completed (%)          :        73.6111
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0064s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:43:17
+ End of the run         : 2021: 5:19:20:14:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5319s
+ Remaining (aprox.)     :         1873s
+ Completed (%)          :        73.9583
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         5.2924s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:44: 9
+ End of the run         : 2021: 5:19:20:15:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17:50: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5329s
+ Remaining (aprox.)     :         1843s
+ Completed (%)          :        74.3056
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0106s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:44:20
+ End of the run         : 2021: 5:19:20:15: 3
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:17:55: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5339s
+ Remaining (aprox.)     :         1813s
+ Completed (%)          :        74.6528
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0001s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:44:30
+ End of the run         : 2021: 5:19:20:14:43
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5395s
+ Remaining (aprox.)     :         1798s
+ Completed (%)          :        75.0000
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         5.5866s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:45:25
+ End of the run         : 2021: 5:19:20:15:24
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5405s
+ Remaining (aprox.)     :         1768s
+ Completed (%)          :        75.3472
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         0.9996s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:45:35
+ End of the run         : 2021: 5:19:20:15: 4
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5415s
+ Remaining (aprox.)     :         1739s
+ Completed (%)          :        75.6944
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0001s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:45:45
+ End of the run         : 2021: 5:19:20:14:44
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5471s
+ Remaining (aprox.)     :         1723s
+ Completed (%)          :        76.0417
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         5.5597s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:46:41
+ End of the run         : 2021: 5:19:20:15:25
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18:20: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5481s
+ Remaining (aprox.)     :         1694s
+ Completed (%)          :        76.3889
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0151s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:46:51
+ End of the run         : 2021: 5:19:20:15: 5
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18:25: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5491s
+ Remaining (aprox.)     :         1664s
+ Completed (%)          :        76.7361
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0085s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:47: 1
+ End of the run         : 2021: 5:19:20:14:46
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5547s
+ Remaining (aprox.)     :         1649s
+ Completed (%)          :        77.0833
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         5.5947s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:47:57
+ End of the run         : 2021: 5:19:20:15:27
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5558s
+ Remaining (aprox.)     :         1620s
+ Completed (%)          :        77.4306
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0492s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:48: 8
+ End of the run         : 2021: 5:19:20:15: 8
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5568s
+ Remaining (aprox.)     :         1590s
+ Completed (%)          :        77.7778
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0217s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:48:18
+ End of the run         : 2021: 5:19:20:14:49
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5621s
+ Remaining (aprox.)     :         1573s
+ Completed (%)          :        78.1250
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         5.3050s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:49:11
+ End of the run         : 2021: 5:19:20:15:25
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18:50: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5631s
+ Remaining (aprox.)     :         1544s
+ Completed (%)          :        78.4722
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0220s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:49:21
+ End of the run         : 2021: 5:19:20:15: 6
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:18:55: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5641s
+ Remaining (aprox.)     :         1516s
+ Completed (%)          :        78.8194
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0085s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:49:31
+ End of the run         : 2021: 5:19:20:14:47
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5697s
+ Remaining (aprox.)     :         1499s
+ Completed (%)          :        79.1667
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         5.6272s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:50:28
+ End of the run         : 2021: 5:19:20:15:27
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19: 4:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5707s
+ Remaining (aprox.)     :         1473s
+ Completed (%)          :        79.4792
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0463s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:50:37
+ End of the run         : 2021: 5:19:20:15:11
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19: 9:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5717s
+ Remaining (aprox.)     :         1444s
+ Completed (%)          :        79.8264
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0134s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:50:47
+ End of the run         : 2021: 5:19:20:14:52
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19:14:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5727s
+ Remaining (aprox.)     :         1416s
+ Completed (%)          :        80.1736
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         1.0114s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:50:57
+ End of the run         : 2021: 5:19:20:14:34
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19:16: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5773s
+ Remaining (aprox.)     :         1418s
+ Completed (%)          :        80.2778
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :        15.3560s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:51:43
+ End of the run         : 2021: 5:19:20:15:22
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19:21: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5784s
+ Remaining (aprox.)     :         1389s
+ Completed (%)          :        80.6250
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0459s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:51:54
+ End of the run         : 2021: 5:19:20:15: 4
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19:26: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5794s
+ Remaining (aprox.)     :         1361s
+ Completed (%)          :        80.9722
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0264s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:52: 4
+ End of the run         : 2021: 5:19:20:14:46
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5845s
+ Remaining (aprox.)     :         1349s
+ Completed (%)          :        81.2500
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         6.4131s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:52:55
+ End of the run         : 2021: 5:19:20:15:24
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5855s
+ Remaining (aprox.)     :         1320s
+ Completed (%)          :        81.5972
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0124s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:53: 5
+ End of the run         : 2021: 5:19:20:15: 6
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5865s
+ Remaining (aprox.)     :         1292s
+ Completed (%)          :        81.9444
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0043s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:53:15
+ End of the run         : 2021: 5:19:20:14:48
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5919s
+ Remaining (aprox.)     :         1273s
+ Completed (%)          :        82.2917
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         5.3535s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:54: 9
+ End of the run         : 2021: 5:19:20:15:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19:49:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5928s
+ Remaining (aprox.)     :         1248s
+ Completed (%)          :        82.6042
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0505s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:54:18
+ End of the run         : 2021: 5:19:20:15: 7
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19:54: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5938s
+ Remaining (aprox.)     :         1223s
+ Completed (%)          :        82.9167
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0600s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:54:28
+ End of the run         : 2021: 5:19:20:14:52
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:19:58:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5947s
+ Remaining (aprox.)     :         1198s
+ Completed (%)          :        83.2292
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         1.0498s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:54:37
+ End of the run         : 2021: 5:19:20:14:36
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         5997s
+ Remaining (aprox.)     :         1199s
+ Completed (%)          :        83.3333
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :        16.4608s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:55:27
+ End of the run         : 2021: 5:19:20:15:26
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20: 4:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6006s
+ Remaining (aprox.)     :         1174s
+ Completed (%)          :        83.6458
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0506s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:55:36
+ End of the run         : 2021: 5:19:20:15:11
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20: 9: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6016s
+ Remaining (aprox.)     :         1149s
+ Completed (%)          :        83.9583
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0509s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:55:46
+ End of the run         : 2021: 5:19:20:14:55
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20:14: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6026s
+ Remaining (aprox.)     :         1121s
+ Completed (%)          :        84.3056
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         1.0272s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:55:56
+ End of the run         : 2021: 5:19:20:14:38
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20:15:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6072s
+ Remaining (aprox.)     :         1121s
+ Completed (%)          :        84.4097
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :        15.3908s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:56:42
+ End of the run         : 2021: 5:19:20:15:24
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20:20:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6082s
+ Remaining (aprox.)     :         1093s
+ Completed (%)          :        84.7569
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0260s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:56:52
+ End of the run         : 2021: 5:19:20:15: 6
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20:25:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6092s
+ Remaining (aprox.)     :         1066s
+ Completed (%)          :        85.1042
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0044s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:57: 3
+ End of the run         : 2021: 5:19:20:14:49
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6144s
+ Remaining (aprox.)     :         1049s
+ Completed (%)          :        85.4167
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         5.7636s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:57:54
+ End of the run         : 2021: 5:19:20:15:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6155s
+ Remaining (aprox.)     :         1021s
+ Completed (%)          :        85.7639
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0347s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:58: 5
+ End of the run         : 2021: 5:19:20:15: 6
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6165s
+ Remaining (aprox.)     :          994s
+ Completed (%)          :        86.1111
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0028s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:58:15
+ End of the run         : 2021: 5:19:20:14:49
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6217s
+ Remaining (aprox.)     :          973s
+ Completed (%)          :        86.4583
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         5.2708s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:59: 7
+ End of the run         : 2021: 5:19:20:15:21
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20:50: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6227s
+ Remaining (aprox.)     :          946s
+ Completed (%)          :        86.8056
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0025s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:59:17
+ End of the run         : 2021: 5:19:20:15: 4
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:20:55: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6237s
+ Remaining (aprox.)     :          919s
+ Completed (%)          :        87.1528
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0013s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:19:59:28
+ End of the run         : 2021: 5:19:20:14:47
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6293s
+ Remaining (aprox.)     :          899s
+ Completed (%)          :        87.5000
+ Coeficient CPU / Model :         0.0833
+ Seconds per Iteration  :         5.6106s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 0:24
+ End of the run         : 2021: 5:19:20:15:23
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6304s
+ Remaining (aprox.)     :          872s
+ Completed (%)          :        87.8472
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         1.0300s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 0:34
+ End of the run         : 2021: 5:19:20:15: 6
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6314s
+ Remaining (aprox.)     :          845s
+ Completed (%)          :        88.1944
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         0.9923s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 0:44
+ End of the run         : 2021: 5:19:20:14:49
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6367s
+ Remaining (aprox.)     :          823s
+ Completed (%)          :        88.5417
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         5.2852s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 1:37
+ End of the run         : 2021: 5:19:20:15:21
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21:20: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6377s
+ Remaining (aprox.)     :          797s
+ Completed (%)          :        88.8889
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0223s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 1:47
+ End of the run         : 2021: 5:19:20:15: 4
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21:25: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6387s
+ Remaining (aprox.)     :          770s
+ Completed (%)          :        89.2361
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0023s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 1:57
+ End of the run         : 2021: 5:19:20:14:47
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6440s
+ Remaining (aprox.)     :          748s
+ Completed (%)          :        89.5833
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         5.2733s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 2:50
+ End of the run         : 2021: 5:19:20:15:19
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6450s
+ Remaining (aprox.)     :          722s
+ Completed (%)          :        89.9306
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0056s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 3: 0
+ End of the run         : 2021: 5:19:20:15: 2
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6460s
+ Remaining (aprox.)     :          695s
+ Completed (%)          :        90.2778
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         0.9969s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 3:10
+ End of the run         : 2021: 5:19:20:14:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6512s
+ Remaining (aprox.)     :          673s
+ Completed (%)          :        90.6250
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         5.2643s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 4: 2
+ End of the run         : 2021: 5:19:20:15:16
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21:50: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6522s
+ Remaining (aprox.)     :          647s
+ Completed (%)          :        90.9722
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         0.9858s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 4:12
+ End of the run         : 2021: 5:19:20:14:59
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:21:55: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6532s
+ Remaining (aprox.)     :          620s
+ Completed (%)          :        91.3194
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         0.9965s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 4:22
+ End of the run         : 2021: 5:19:20:14:43
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6588s
+ Remaining (aprox.)     :          598s
+ Completed (%)          :        91.6667
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         5.5883s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 5:18
+ End of the run         : 2021: 5:19:20:15:17
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6598s
+ Remaining (aprox.)     :          572s
+ Completed (%)          :        92.0139
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         1.0063s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 5:28
+ End of the run         : 2021: 5:19:20:15: 1
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6608s
+ Remaining (aprox.)     :          546s
+ Completed (%)          :        92.3611
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         1.0069s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 5:38
+ End of the run         : 2021: 5:19:20:14:45
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6661s
+ Remaining (aprox.)     :          523s
+ Completed (%)          :        92.7083
+ Coeficient CPU / Model :         0.0832
+ Seconds per Iteration  :         5.2775s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 6:31
+ End of the run         : 2021: 5:19:20:15:15
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22:20: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6671s
+ Remaining (aprox.)     :          497s
+ Completed (%)          :        93.0556
+ Coeficient CPU / Model :         0.0830
+ Seconds per Iteration  :         0.9998s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 6:41
+ End of the run         : 2021: 5:19:20:14:59
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22:25: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6681s
+ Remaining (aprox.)     :          471s
+ Completed (%)          :        93.4028
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         0.9972s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 6:51
+ End of the run         : 2021: 5:19:20:14:43
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6733s
+ Remaining (aprox.)     :          448s
+ Completed (%)          :        93.7500
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         5.2548s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 7:43
+ End of the run         : 2021: 5:19:20:15:12
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6743s
+ Remaining (aprox.)     :          423s
+ Completed (%)          :        94.0972
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0021s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 7:53
+ End of the run         : 2021: 5:19:20:14:57
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6753s
+ Remaining (aprox.)     :          397s
+ Completed (%)          :        94.4444
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         0.9933s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 8: 3
+ End of the run         : 2021: 5:19:20:14:41
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6806s
+ Remaining (aprox.)     :          373s
+ Completed (%)          :        94.7917
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         5.2716s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 8:56
+ End of the run         : 2021: 5:19:20:15:10
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22:50: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6816s
+ Remaining (aprox.)     :          348s
+ Completed (%)          :        95.1389
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0107s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 9: 6
+ End of the run         : 2021: 5:19:20:14:55
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:22:55: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6826s
+ Remaining (aprox.)     :          322s
+ Completed (%)          :        95.4861
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         0.9976s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20: 9:16
+ End of the run         : 2021: 5:19:20:14:39
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6882s
+ Remaining (aprox.)     :          299s
+ Completed (%)          :        95.8333
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         5.6146s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:10:12
+ End of the run         : 2021: 5:19:20:15:12
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23: 5: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6892s
+ Remaining (aprox.)     :          273s
+ Completed (%)          :        96.1806
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0198s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:10:23
+ End of the run         : 2021: 5:19:20:14:56
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23:10: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6902s
+ Remaining (aprox.)     :          248s
+ Completed (%)          :        96.5278
+ Coeficient CPU / Model :         0.0828
+ Seconds per Iteration  :         0.9912s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:10:32
+ End of the run         : 2021: 5:19:20:14:41
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23:15: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6955s
+ Remaining (aprox.)     :          224s
+ Completed (%)          :        96.8750
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         5.2431s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:11:25
+ End of the run         : 2021: 5:19:20:15: 9
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23:20: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6965s
+ Remaining (aprox.)     :          199s
+ Completed (%)          :        97.2222
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0017s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:11:35
+ End of the run         : 2021: 5:19:20:14:54
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23:25: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         6975s
+ Remaining (aprox.)     :          173s
+ Completed (%)          :        97.5694
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         0.9979s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:11:45
+ End of the run         : 2021: 5:19:20:14:39
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23:30: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         7028s
+ Remaining (aprox.)     :          149s
+ Completed (%)          :        97.9167
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         5.2756s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:12:38
+ End of the run         : 2021: 5:19:20:15: 7
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23:35: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         7038s
+ Remaining (aprox.)     :          124s
+ Completed (%)          :        98.2639
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0267s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:12:48
+ End of the run         : 2021: 5:19:20:14:52
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23:40: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         7048s
+ Remaining (aprox.)     :           99s
+ Completed (%)          :        98.6111
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         1.0159s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:12:58
+ End of the run         : 2021: 5:19:20:14:37
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23:45: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         7101s
+ Remaining (aprox.)     :           74s
+ Completed (%)          :        98.9583
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :         5.2928s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:13:51
+ End of the run         : 2021: 5:19:20:15: 6
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23:49:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         7110s
+ Remaining (aprox.)     :           52s
+ Completed (%)          :        99.2708
+ Coeficient CPU / Model :         0.0829
+ Seconds per Iteration  :         1.0512s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:14: 0
+ End of the run         : 2021: 5:19:20:14:53
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23:54:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         7120s
+ Remaining (aprox.)     :           27s
+ Completed (%)          :        99.6181
+ Coeficient CPU / Model :         0.0827
+ Seconds per Iteration  :         0.9945s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:14:10
+ End of the run         : 2021: 5:19:20:14:38
+
+
+
+
+
+
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 1:23:59:30
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         7130s
+ Remaining (aprox.)     :            2s
+ Completed (%)          :        99.9653
+ Coeficient CPU / Model :         0.0826
+ Seconds per Iteration  :         0.9874s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:14:20
+ End of the run         : 2021: 5:19:20:14:23
+
+
+
+
+
+
+ -------------------------- MOHID -------------------------
+ 
+ Shuting down MOHID, please wait...
+ 
+ -----Current Simulation Instant---------------------------
+ Time Instant           : 2019: 9: 2: 0: 0: 0
+ 
+ -----CPU Time---------------------------------------------
+ Elapsed                :         7177s
+ Remaining (aprox.)     :            0s
+ Completed (%)          :       100.0000
+ Coeficient CPU / Model :         0.0831
+ Seconds per Iteration  :        46.7310s
+ -----System Time------------------------------------------
+ System time            : 2021: 5:19:20:15: 7
+ End of the run         : 2021: 5:19:20:15: 7
+
+
+
+
+
+
+ -------------------------- MOHID -------------------------
+ 
+ Program Mohid Water successfully terminated
+ 
+ 
+ Total Elapsed Time     :        7489.20   2h  4min 49s
+
+ Total CPU time         :       23463.52
+
+ CPU usage (%)          :         313.30
+
+ Workcycle Elapsed Time :        7177.45
+
+ Workcycle CPU time     :       23145.10
+
+ Workcycle CPU usage (%):         322.47
+
+ 
+ ----------------------------------------------------------

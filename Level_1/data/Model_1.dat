@@ -1,0 +1,5 @@
+START                     : 2021 09 13 0 0 0
+END                       : 2021 09 14 0 0 0
+DT                        : 30
+
+OPENMP_NUM_THREADS            : 20
