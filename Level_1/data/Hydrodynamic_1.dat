@@ -8,15 +8,15 @@ TIDE                      : 0
 TIDEPOTENTIAL             : 1
 POTENTIAL_ALGORITHM       : 1
 CORIOLIS                  : 1
-WATER_DISCHARGES          : 0
+WATER_DISCHARGES          : 1
 
-WIND                      : 0
-WIND_SMOOTH_PERIOD        : 3600.
+WIND                      : 1
+!WIND_SMOOTH_PERIOD        : 3600.
 !Start wind with a ramp period for wind forcing in order to allow a slowly adjustement
 !Both keywords are used only in the spin-up run
 !Remove both keywords and include WIND: 1 to continued the calculus from the spin-up run
 
-ATM_PRESSURE              : 0
+ATM_PRESSURE              : 1
 ATM_PRESSURE_TYPE         : 1
 !IMPOSE_INVERTED_BAROMETER : 1
 !ATM_RAMP                  : 1
@@ -36,12 +36,12 @@ LOCAL_SOLUTION            : 3
 BAROCLINIC                : 1
 BAROCLINIC_POLIDEGREE     : 1 ! interpolacao linear . è melhor que outras interpolacoes
 
-RAMP                      : 1      
-RAMP_PERIOD               : 86400.
+!RAMP                      : 1      
+!RAMP_PERIOD               : 3600.
  !Start with baroclinic force null and only after a specific period specified (seconds) the total force is compute
  !This keyword is only used in spin-up run, remove it to continued the calculus from the spin-up run
 
-FLATHER_COLD_PERIOD       : 86400
+!FLATHER_COLD_PERIOD       : 86400
  !Allows the relaxation of water level solution for a period of time
  !This keyword is only used in spin-up run, remove it to continued the calculus from the spin-up run 
  
@@ -56,3 +56,39 @@ TIME_SERIE                : 0
 TIME_SERIE_LOCATION       : ..\General Data\TimeSeriesLocation.dat
 OUTPUT_TIME              : 0  3600
 SURFACE_OUTPUT_TIME      : 0  900
+
+<begin_waterlevel>
+NAME                           : water level
+UNITS                          : m
+DIMENSION                      : 2D
+DEFAULTVALUE                   : 0
+INITIALIZATION_METHOD          : hdf
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+FILENAME                : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+<end_waterlevel>
+
+<begin_velocity_u>
+NAME                           : velocity U
+UNITS                          : m/s
+DIMENSION                      : 3D
+DEFAULTVALUE                   : 0
+INITIALIZATION_METHOD          : hdf
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+FILENAME                : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+<end_velocity_u>
+
+<begin_velocity_v>
+NAME                           : velocity V
+UNITS                          : m/s
+DIMENSION                      : 3D
+DEFAULTVALUE                   : 0
+INITIALIZATION_METHOD          : hdf
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+FILENAME                : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+<end_velocity_v>

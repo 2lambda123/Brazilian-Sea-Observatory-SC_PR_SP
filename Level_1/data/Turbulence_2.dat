@@ -21,5 +21,5 @@ SPONGE_EVOLUTION        : 2
 !Output Options
 OUTPUT_TIME               : 0 86400
 
-!MODTURB                  : turbulence_equation
+MODTURB                  : turbulence_equation
 !MAX_VISC_VERT            : 1

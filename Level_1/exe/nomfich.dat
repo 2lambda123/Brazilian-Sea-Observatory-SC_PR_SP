@@ -1,4 +1,4 @@
-IN_BATIM                  : ../GeneralData/DigitalTerrain/SC_PR_SP_1_60_griddata_v01.dat
+IN_BATIM                  : ../GeneralData/DigitalTerrain/GridData_v2_Smoothed_Smoothed.dat
 ROOT                      : ../res
 ROOT_SRT                  : ../res/Run1/
 DT_LOG                    : ../res/DT_Log_1.log
@@ -25,3 +25,4 @@ TURB_GOTM                 : ../data/GOTM_1.dat
 TURB_FIN                  : ../res/GOTM_1.fin
 ASSIMILA_DAT              : ../data/Assimilation_1.dat
 ASSIMILA_HDF              : ../res/Assimilation_1.hdf
+DISCHARG                  : ../data/Discharges_1.dat

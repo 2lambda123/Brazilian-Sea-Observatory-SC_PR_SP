@@ -59,7 +59,7 @@ BOUNDARY_CONDITION           : 4
 OLD                          : 0
 
 ADVECTION_DIFFUSION          : 1
-DISCHARGES                   : 0
+DISCHARGES                   : 1
 DISCHARGES_TRACKING          : 0
 SURFACE_FLUXES               : 1
 

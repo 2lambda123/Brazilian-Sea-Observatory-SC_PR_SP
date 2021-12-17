@@ -1,7 +1,7 @@
 OUTPUT_TIME             : 0 86400.
 
 !With cold relaxation period of 1 day
-COLD_RELAX_PERIOD_DEFAULT : 86400
+!COLD_RELAX_PERIOD_DEFAULT : 86400
 
 <beginproperty>
 NAME                    : temperature

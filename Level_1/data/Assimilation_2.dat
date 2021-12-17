@@ -1,7 +1,61 @@
 OUTPUT_TIME             : 0 86400.
 
 !With cold relaxation period of 1 day
-!COLD_RELAX_PERIOD_DEFAULT : 86400.
+!COLD_RELAX_PERIOD_DEFAULT : 86400
+
+<beginproperty>
+NAME                    : temperature
+UNITS                   : degrees_C
+DIMENSION               : 3D
+OUTPUT_HDF              : 1
+
+<<begin_field>>
+DEFAULTVALUE            : 25
+FILE_IN_TIME            : HDF
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+FILENAME                : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+TYPE_ZUV                : z
+<<end_field>>
+
+<<begin_coef>>
+DEFAULTVALUE              : 1e9
+TYPE_ZUV                  : z
+FILE_IN_TIME              : NONE
+REMAIN_CONSTANT           : 1
+INITIALIZATION_METHOD     : SPONGE
+SPONGE_CELLS              : 10
+SPONGE_OUT                : 86400
+<<end_coef>>
+<endproperty>
+
+<beginproperty>
+NAME                    : salinity
+UNITS                   : PSU
+DIMENSION               : 3D
+OUTPUT_HDF              : 1
+
+<<begin_field>>
+DEFAULTVALUE            : 0
+FILE_IN_TIME            : HDF
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+FILENAME                : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+TYPE_ZUV                : z
+<<end_field>>
+
+<<begin_coef>>
+DEFAULTVALUE              : 1e9
+TYPE_ZUV                  : z
+FILE_IN_TIME              : NONE
+REMAIN_CONSTANT           : 1
+INITIALIZATION_METHOD     : SPONGE
+SPONGE_CELLS              : 10
+SPONGE_OUT                : 86400
+<<end_coef>>
+<endproperty>
 
 <beginproperty>
 NAME                    : water level
@@ -9,20 +63,24 @@ UNITS                   : m
 DIMENSION               : 2D
 OUTPUT_HDF              : 0
 
-
 <<begin_field>>
 DEFAULTVALUE            : 0
+FILE_IN_TIME            : HDF
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+FILENAME                : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+TYPE_ZUV                : z
 <<end_field>>
 
 <<begin_coef>>
 DEFAULTVALUE            : 1e9
 TYPE_ZUV                : z
 FILE_IN_TIME            : NONE
-REMAIN_CONSTANT         : 1
-SPONGE_OUT              : 1e9
+INITIALIZATION_METHOD   : SPONGE
+SPONGE_CELLS            : 10
+SPONGE_OUT              : 86400
 <<end_coef>>
-
-
 <endproperty>
 
 <beginproperty>
@@ -33,18 +91,25 @@ OUTPUT_HDF              : 0
 
 <<begin_field>>
 DEFAULTVALUE            : 0
+FILE_IN_TIME            : HDF
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+FILENAME                : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+TYPE_ZUV                : z
 <<end_field>>
 
 <<begin_coef>>
-DEFAULTVALUE            : 1e9
-TYPE_ZUV                : u
-FILE_IN_TIME            : NONE
-REMAIN_CONSTANT         : 1
-SPONGE_OUT              : 1e9
+DEFAULTVALUE              : 1e9
+TYPE_ZUV                  : u
+FILE_IN_TIME              : NONE
+REMAIN_CONSTANT           : 1
+INITIALIZATION_METHOD     : SPONGE
+SPONGE_CELLS              : 10
+SPONGE_OUT                : 86400
 <<end_coef>>
 
 <endproperty>
-
 
 <beginproperty>
 NAME                    : velocity V
@@ -52,19 +117,25 @@ UNITS                   : m/s
 DIMENSION               : 3D
 OUTPUT_HDF              : 0
 
-
 <<begin_field>>
 DEFAULTVALUE            : 0
+FILE_IN_TIME            : HDF
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+FILENAME                : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+TYPE_ZUV                : z
 <<end_field>>
 
 <<begin_coef>>
-DEFAULTVALUE            : 1e9
-TYPE_ZUV                : v
-FILE_IN_TIME            : NONE
-REMAIN_CONSTANT         : 1
-SPONGE_OUT              : 1e9
+DEFAULTVALUE              : 1e9
+TYPE_ZUV                  : v
+FILE_IN_TIME              : NONE
+REMAIN_CONSTANT           : 1
+INITIALIZATION_METHOD     : SPONGE
+SPONGE_CELLS              : 10
+SPONGE_OUT                : 86400
 <<end_coef>>
-
 <endproperty>
 
 <beginproperty>
@@ -81,13 +152,13 @@ FILE_IN_TIME            : HDF
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
-FILENAME                : ../../../FES2014/FES2014.hdf5
+FILENAME                : ../../../FES2014.hdf5
 TYPE_ZUV                : z
 HARMONICS               : 1
 UNITS                   : m
 HARMONICS_FIELD_DIM     : M2/amplitude
 ADDING_FACTOR           : 0.8
-!SLOWSTART               : 86400
+SLOWSTART               : 86400
 <<<beginharmonics>>>
 SA
 SSA
@@ -149,13 +220,13 @@ FILE_IN_TIME            : HDF
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
-FILENAME                : ../../../FES2014/FES2014.hdf5
+FILENAME                : ../../../FES2014.hdf5
 TYPE_ZUV                : z
 HARMONICS               : 1
 UNITS                   : m
 HARMONICS_FIELD_DIM     : M2/amplitude
 ADDING_FACTOR           : 0
-!SLOWSTART               : 86400
+SLOWSTART               : 86400
 <<<beginharmonics>>>
 SA
 SSA
@@ -219,13 +290,13 @@ FILE_IN_TIME            : HDF
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
-FILENAME                : ../../../FES2014/FES2014.hdf5
+FILENAME                : ../../../FES2014.hdf5
 TYPE_ZUV                : z
 HARMONICS               : 1
 UNITS                   : m
 HARMONICS_FIELD_DIM     : M2/amplitude
 ADDING_FACTOR           : 0
-!SLOWSTART               : 86400
+SLOWSTART               : 86400
 <<<beginharmonics>>>
 SA
 SSA
