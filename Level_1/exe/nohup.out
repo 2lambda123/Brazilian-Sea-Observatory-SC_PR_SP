@@ -1593,3 +1593,87 @@ WARNING; KEYWORD; Verify_Numerical_Options - Hydrodynamic - WRN21..
         reading turbulence namelists..
         done.
 ./run.sh: 2: nohup./Mohid_DDC.exe: not found
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ../res/Turbulence_1.hdf5
+ 
+HDF5-DIAG: Error detected in HDF5 (1.8.15) thread 0:
+  #000: H5D.c line 365 in H5Dopen2(): not a dataset
+    major: Dataset
+    minor: Inappropriate type
+HDF5ReadDataI4_3D - ModuleHDF5 - ERR05f
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ../res/Turbulence_1.hdf5
+ 
+ ../res/Hydrodynamic_1.hdf5
+ 
+ ../res/Hydrodynamic_1_Surface.hdf5
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :          21.76   0h  0min 21s
+
+ Total CPU time         :          21.75
+
+ CPU usage (%)          :          99.95
+
+ 
+ ----------------------------------------------------------
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ../res/Turbulence_1.hdf5
+ 
+ ../res/Hydrodynamic_1.hdf5
+ 
+ ../res/Hydrodynamic_1_Surface.hdf5
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :          21.70   0h  0min 21s
+
+ Total CPU time         :          21.69
+
+ CPU usage (%)          :          99.94
+
+ 
+ ----------------------------------------------------------
