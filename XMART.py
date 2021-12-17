@@ -233,7 +233,8 @@ for run in range (0,number_of_runs):
 		os.remove(filename)
 				
 	#Copy Meteo boundary conditions
-	file_name_meteo = "m02_wrfout_d01_"+str(next_start_date.strftime("%Y-%m-%d"))+".hdf5"
+	date_meteo_file = next_start_date - datetime.timedelta(days = 1)
+	file_name_meteo = "m02_wrfout_d01_"+str(date_meteo_file.strftime("%Y-%m-%d"))+".hdf5"
 	file_name_meteo_dir = dir_meteo+"//"+file_name_meteo
 	shutil.copy(file_name_meteo_dir, boundary_conditions_dir)
 	
