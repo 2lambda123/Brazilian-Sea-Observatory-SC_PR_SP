@@ -1781,3 +1781,72 @@ HDF5ReadDataI4_3D - ModuleHDF5 - ERR05f
 
  
  ----------------------------------------------------------
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ../res/Turbulence_1.hdf5
+ 
+ ../res/Hydrodynamic_1.hdf5
+ 
+ ../res/Hydrodynamic_1_Surface.hdf5
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :          21.93   0h  0min 21s
+
+ Total CPU time         :          21.92
+
+ CPU usage (%)          :          99.96
+
+ 
+ ----------------------------------------------------------
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ../res/Turbulence_1.hdf5
+ 
+HDF5-DIAG: Error detected in HDF5 (1.8.15) thread 0:
+  #000: H5G.c line 467 in H5Gopen2(): unable to open group
+    major: Symbol table
+    minor: Can't open object
+  #001: H5Gint.c line 320 in H5G__open_name(): group not found
+    major: Symbol table
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'OpenPoints' doesn't exist
+    major: Symbol table
+    minor: Object not found
+ FileName../res/MPI_1_Turbulence_1.hdf5
+ FatherGroupName =/Grid/OpenPoints/
+GetHDF5GroupID - ModuleHDF5 - ERR10
