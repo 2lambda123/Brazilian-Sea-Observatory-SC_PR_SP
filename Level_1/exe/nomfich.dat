@@ -1,4 +1,4 @@
-IN_BATIM                  : ../GeneralData/DigitalTerrain/GridData_v2_Smoothed_Smoothed_v01.dat
+IN_BATIM                  : ../GeneralData/DigitalTerrain/Griddata_SC_PR_SP_1_60_v01.dat
 ROOT                      : ../res
 ROOT_SRT                  : ../res/Run1/
 DT_LOG                    : ../res/DT_Log_1.log
