@@ -158,7 +158,7 @@ HARMONICS               : 1
 UNITS                   : m
 HARMONICS_FIELD_DIM     : M2/amplitude
 ADDING_FACTOR           : 0.8
-SLOWSTART               : 86400
+!SLOWSTART               : 86400
 <<<beginharmonics>>>
 SA
 SSA
@@ -226,7 +226,7 @@ HARMONICS               : 1
 UNITS                   : m
 HARMONICS_FIELD_DIM     : M2/amplitude
 ADDING_FACTOR           : 0
-SLOWSTART               : 86400
+!SLOWSTART               : 86400
 <<<beginharmonics>>>
 SA
 SSA
@@ -296,7 +296,7 @@ HARMONICS               : 1
 UNITS                   : m
 HARMONICS_FIELD_DIM     : M2/amplitude
 ADDING_FACTOR           : 0
-SLOWSTART               : 86400
+!SLOWSTART               : 86400
 <<<beginharmonics>>>
 SA
 SSA
