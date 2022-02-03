@@ -1,4 +1,166 @@
 IGNORE_ON                 : 1
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!SP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<begindischarge>
+NAME                      : Ribeira do Iguape 
+DESCRIPTION               : Média mensal
+COORD_X                   : -47.5641
+COORD_Y                   : -24.6772
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Rios Una do Prelado e Guarau 
+DESCRIPTION               : Média mensal
+COORD_X                   : -47.0805 
+COORD_Y                   : -24.442
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
+FLOW_COLUMN               : 3
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Rio Itanhaém 
+DESCRIPTION               : Média mensal
+COORD_X                   : -46.797 
+COORD_Y                   : -24.1958
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
+FLOW_COLUMN               : 4
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Regiao Santos 
+DESCRIPTION               : Média mensal
+COORD_X                   : -46.3636
+COORD_Y                   : -23.9135 
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
+FLOW_COLUMN               : 5
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Rio Cubatão (Santos)
+DESCRIPTION               : Média mensal
+COORD_X                   : -46.3636
+COORD_Y                   : -23.9135 
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
+FLOW_COLUMN               : 6
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Rios Itapanhaú, Itaguarê, Guaratuba e  Una
+DESCRIPTION               : Média mensal
+COORD_X                   : -45.8969
+COORD_Y                   : -23.7636 
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
+FLOW_COLUMN               : 7
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Rios Juqueriquerê, Maranduba e escuro
+DESCRIPTION               : Média mensal
+COORD_X                   : -45.3632 
+COORD_Y                   : -23.6287 
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
+FLOW_COLUMN               : 8
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Rios Puruba e Rio Grande
+DESCRIPTION               : Média mensal
+COORD_X                   : -44.9004  
+COORD_Y                   : -23.349 
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
+FLOW_COLUMN               : 9
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!GUARATUBA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 <begindischarge>
 NAME                      : RIO CUBATAO
