@@ -760,3 +760,167 @@ C:\Aplica_New\SC_PR_SP\Level_1\exe>DomainConsolidation
  ----------------------------------------------------------
 
 C:\Aplica_New\SC_PR_SP\Level_1\exe>mpiexec -np 10 MOHIDWater_MPI  1>Mohid.log 
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
+ 
+-------
+-L/home/mohid/apps_intel/netcdf-4.4.1.1/lib -L/home/mohid/apps_intel/netcdf-4.4.1.1/lib
+/home/mohid/Aplica/SC_PR_SP/XMART.sh: line 19: /home/mohid/Aplica/SC_PR_SP/XMART.py: Permission denied
