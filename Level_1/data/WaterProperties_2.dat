@@ -7,8 +7,6 @@ ADV_METHOD_V            : 4
 TVD_LIMIT_H             : 4
 TVD_LIMIT_V             : 4
 
-LIGHT_EXTINCTION        : 1
-!SW_EXTINCTION_TYPE      : 2
 
 <beginproperty>
 NAME                         : salinity
@@ -16,11 +14,11 @@ UNITS                        : PSU
 DESCRIPTION                  : salinity
 PARTICULATE                  : 0
 
-INITIALIZATION_METHOD        : HDF
-FIELD4D                 : 1
-SPATIAL_INTERPOL        : 1
-EXTRAPOLATE             : 1
-FILENAME                     : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+!INITIALIZATION_METHOD        : HDF
+!FIELD4D                 : 1
+!SPATIAL_INTERPOL        : 1
+!EXTRAPOLATE             : 1
+!FILENAME                     : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
 
 DEFAULTVALUE                 : 0.
 
@@ -46,11 +44,11 @@ UNITS                        : C
 DESCRIPTION                  : temperature
 PARTICULATE                  : 0
 
-INITIALIZATION_METHOD        : HDF
-FIELD4D                 : 1
-SPATIAL_INTERPOL        : 1
-EXTRAPOLATE             : 1
-FILENAME                     : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+!INITIALIZATION_METHOD        : HDF
+!FIELD4D                 : 1
+!SPATIAL_INTERPOL        : 1
+!EXTRAPOLATE             : 1
+!FILENAME                     : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
 
 DEFAULTVALUE                 : 25.
 

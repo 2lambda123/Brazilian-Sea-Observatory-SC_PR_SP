@@ -91,7 +91,7 @@ NAME                    : downward long wave radiation
 UNITS                   : W/m^2
 DESCRIPTION             : downward long wave radiation
 FILE_IN_TIME            : HDF
-FILENAME                : ../GeneralData/BoundaryConditions/wrf.hdf5
+FILENAME                : ../GeneralData/BoundaryConditions/meteo.hdf5
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
@@ -118,7 +118,7 @@ NAME                    : albedo
 UNITS                   : %
 DESCRIPTION             : Constant
 !FILE_IN_TIME            : HDF
-!FILENAME                : ../GeneralData/BoundaryConditions/wrf.hdf5
+!FILENAME                : ../GeneralData/BoundaryConditions/meteo.hdf5
 !FIELD4D                 : 1
 !SPATIAL_INTERPOL        : 1
 !EXTRAPOLATE             : 1

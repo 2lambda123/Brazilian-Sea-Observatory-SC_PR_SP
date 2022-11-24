@@ -152,7 +152,7 @@ FILE_IN_TIME            : HDF
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
-FILENAME                : ../../../FES2014.hdf5
+FILENAME                : C:/FES2014/FES2014.hdf5
 TYPE_ZUV                : z
 HARMONICS               : 1
 UNITS                   : m
@@ -220,7 +220,7 @@ FILE_IN_TIME            : HDF
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
-FILENAME                : ../../../FES2014.hdf5
+FILENAME                : C:/FES2014/FES2014.hdf5
 TYPE_ZUV                : z
 HARMONICS               : 1
 UNITS                   : m
@@ -290,7 +290,7 @@ FILE_IN_TIME            : HDF
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
-FILENAME                : ../../../FES2014.hdf5
+FILENAME                : C:/FES2014/FES2014.hdf5
 TYPE_ZUV                : z
 HARMONICS               : 1
 UNITS                   : m

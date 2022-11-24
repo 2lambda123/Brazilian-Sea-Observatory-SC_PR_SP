@@ -22,19 +22,25 @@ data_dir = [0]*number_of_domains
 data_dir [0] = (dirpath+"//Level_1//data")
 
 backup_dir = [0]*number_of_domains
-backup_dir [0] = (r"/dados1/mohid/backup/SC_PR_SP")
+backup_dir [0] = (r"D:\MOHID\SC_PR_SP\Backup")
 
 
 boundary_conditions_dir = (dirpath+"//Level_1//GeneralData//BoundaryConditions")
 
-dir_meteo = (r"/dados1/mohid/backup/WRF/")
+#dir_meteo = (r"D:\GFS\Backup")
 #file_name_meteo = "gfs.hdf5"
 
-dir_father_phy = (r"/dados1/mohid/backup/CMEMS")
-file_name_phy = "Plataforma_SE.hdf5"
-#file_name_phy = "Hydrodynamic_2.hdf5"
+dir_meteo = (r"C:\Aplica_New\WRF_INPE\Backup")
+file_name_meteo = "wrf.hdf5"
 
-dir_rivers = (r"/dados1/mohid/backup/QSDC/")
+dir_father_phy = (r"D:\CMEMS\GLOBAL_ANALYSIS_FORECAST_PHY\Backup")
+file_name_phy = "Plataforma_SE.hdf5"
+
+# dir_father_phy = (r"/dados1/mohid/backup/CMEMS")
+# file_name_phy = "Plataforma_SE.hdf5"
+
+
+#dir_rivers = (r"/dados1/mohid/backup/QSDC/")
 
 #Store ftp (No = 0 Yes = 1)
 store_ftp = 0
@@ -233,24 +239,26 @@ for run in range (0,number_of_runs):
 		os.remove(filename)
 				
 	#Copy Meteo boundary conditions
-	date_meteo_file = next_start_date - datetime.timedelta(days = 1)
-	file_name_meteo = "m02_wrfout_d01_"+str(date_meteo_file.strftime("%Y-%m-%d"))+".hdf5"
-	file_name_meteo_dir = dir_meteo+"//"+file_name_meteo
-	shutil.copy(file_name_meteo_dir, boundary_conditions_dir)
 	
-	os.chdir(boundary_conditions_dir)
-	os.rename(file_name_meteo, "wrf.hdf5")	
+	dir_date = (dir_meteo+"\\"+str(next_start_date.strftime("%Y%m%d")) + "_" + str(next_end_date.strftime("%Y%m%d")))
+	#os.chdir(dir_date)
+
+	hdf5_files = glob.iglob(os.path.join(dir_date,file_name_meteo))
+	for file in hdf5_files:
+		shutil.copy(file, boundary_conditions_dir)
+
+	os.rename(file_name_meteo, "meteo.hdf5")	
 	
 	#Copy ocean boundary conditions
 	file_name_hydro = (dir_father_phy+"//"+str(next_start_date.strftime("%Y%m%d")) + "_" + str(next_end_date.strftime("%Y%m%d"))+"//"+file_name_phy)
 	shutil.copy(file_name_hydro, boundary_conditions_dir)
 	
 	#Copy rivers boundary conditions
-	dir_rivers_date = (dir_rivers+"//"+str(next_start_date.strftime("%Y%m%d")))
+	# dir_rivers_date = (dir_rivers+"//"+str(next_start_date.strftime("%Y%m%d")))
 	
-	river_files = glob.iglob(os.path.join(dir_rivers_date,"*.dat"))
-	for file in river_files:
-		shutil.copy(file, boundary_conditions_dir)
+	# river_files = glob.iglob(os.path.join(dir_rivers_date,"*.dat"))
+	# for file in river_files:
+		# shutil.copy(file, boundary_conditions_dir)
 		
 	##############################################
 	#MOHID
@@ -269,10 +277,16 @@ for run in range (0,number_of_runs):
 	
 	#Run
 	os.chdir(exe_dir)
-	output = subprocess.call(["/home/mohid/Aplica/SC_PR_SP/Level_1/exe/run.sh"])
+	output = subprocess.call(["run_MPI.bat"])
 	
 	if not ("Program Mohid Water successfully terminated") in open(mohid_log).read():
 		sys.exit ("Program Mohid Water was not successfully terminated"+"\n"+"Check out Mohid log file")
+	
+	# os.chdir(exe_dir)
+	# output = subprocess.call(["/home/mohid/Aplica/SC_PR_SP/Level_1/exe/run.sh"])
+	
+	# if not ("Program Mohid Water successfully terminated") in open(mohid_log).read():
+		# sys.exit ("Program Mohid Water was not successfully terminated"+"\n"+"Check out Mohid log file")
 	
 	#Backup
 	for level in range (0,number_of_domains):

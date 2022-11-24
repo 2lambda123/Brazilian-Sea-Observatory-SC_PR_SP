@@ -1,7 +1,7 @@
 OUTPUT_TIME             : 0 86400.
 
 !With cold relaxation period of 1 day
-!COLD_RELAX_PERIOD_DEFAULT : 86400
+COLD_RELAX_PERIOD_DEFAULT : 86400
 
 <beginproperty>
 NAME                    : temperature
@@ -152,7 +152,7 @@ FILE_IN_TIME            : HDF
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
-FILENAME                : ../../../FES2014.hdf5
+FILENAME                : C:/FES2014/FES2014.hdf5
 TYPE_ZUV                : z
 HARMONICS               : 1
 UNITS                   : m
@@ -220,7 +220,7 @@ FILE_IN_TIME            : HDF
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
-FILENAME                : ../../../FES2014.hdf5
+FILENAME                : C:/FES2014/FES2014.hdf5
 TYPE_ZUV                : z
 HARMONICS               : 1
 UNITS                   : m
@@ -290,7 +290,7 @@ FILE_IN_TIME            : HDF
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
-FILENAME                : ../../../FES2014.hdf5
+FILENAME                : C:/FES2014/FES2014.hdf5
 TYPE_ZUV                : z
 HARMONICS               : 1
 UNITS                   : m
