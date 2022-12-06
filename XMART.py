@@ -2,95 +2,10 @@ import re, datetime, time
 import glob, os, shutil
 import subprocess, sys
 from ftplib import FTP
-
-dirpath = os.getcwd()
-
-input_file = "XMART.dat"
-
-exe_dir = (dirpath+"//Level_1//exe")
-mohid_log = (exe_dir+"//Mohid.log")
-
-#Define number of domains
-number_of_domains = 1
-
-#Define directories (comment when not applicable)
-results_dir = [0]*number_of_domains
-results_dir [0] = (dirpath+"//Level_1//res")
-#results_dir [1] = (dirpath+"\\Level_1\\Level_2\\res")
-
-data_dir = [0]*number_of_domains
-data_dir [0] = (dirpath+"//Level_1//data")
-
-backup_dir = [0]*number_of_domains
-backup_dir [0] = (r"D:\MOHID\SC_PR_SP\Backup")
+import requests
+from Input_XMART import *
 
 
-boundary_conditions_dir = (dirpath+"//Level_1//GeneralData//BoundaryConditions")
-
-#dir_meteo = (r"D:\GFS\Backup")
-#file_name_meteo = "gfs.hdf5"
-
-dir_meteo = (r"C:\Aplica_New\WRF_INPE\Backup")
-file_name_meteo = "wrf.hdf5"
-
-dir_father_phy = (r"D:\CMEMS\GLOBAL_ANALYSIS_FORECAST_PHY\Backup")
-file_name_phy = "Plataforma_SE.hdf5"
-
-# dir_father_phy = (r"/dados1/mohid/backup/CMEMS")
-# file_name_phy = "Plataforma_SE.hdf5"
-
-
-#dir_rivers = (r"/dados1/mohid/backup/QSDC/")
-
-#Store ftp (No = 0 Yes = 1)
-store_ftp = 0
-#ftp_credentials_file = "ftp.dat"
-
-#convert2netcdf_path = (r"C:\Aplica\PR_SC\Work\Hdf5toNetcdf\versao_netcdf_4")
-#convert2netcdf_file = (r"C:\Aplica\PR_SC\Work\Hdf5toNetcdf\versao_netcdf_4\Convert2netcdf.dat")
-
-#####################################################
-def read_date():
-	global initial_date
-	global end_date
-	global number_of_runs
-	
-	forecast_mode = 0
-	refday_to_start = 0
-	number_of_runs = 0
-	
-	with open(input_file) as file:
-		for line in file:
-			if re.search("^FORECAST_MODE.+:", line):
-				number = line.split()
-				forecast_mode = int(number[2])
-				
-	if forecast_mode == 1:
-		with open(input_file) as file:
-			for line in file:
-				if re.search("^REFDAY_TO_START.+:", line):
-					number = line.split()
-					refday_to_start = int(number[2])
-				elif re.search("^NUMBER_OF_RUNS.+:", line):
-					number = line.split()
-					number_of_runs = int(number[2])
-					
-		initial_date = datetime.datetime.now() + datetime.timedelta(days = refday_to_start)
-		end_date = initial_date + datetime.timedelta(days = number_of_runs-1)
-		
-	else:	
-		with open(input_file) as file:
-			for line in file:
-				if re.search("^START.+:", line):
-					words = line.split()
-					initial_date = datetime.datetime(int(words[2]),int(words[3]),int(words[4]),int(words[5]),int(words[6]),int(words[7]))
-				elif re.search("^END.+:", line):
-					words = line.split()
-					end_date = datetime.datetime(int(words[2]),int(words[3]),int(words[4]),int(words[5]),int(words[6]),int(words[7]))
-						
-		interval = end_date - initial_date
-		
-		number_of_runs = interval.days	
 #####################################################
 def next_date (run):
 	global next_start_date
@@ -111,31 +26,14 @@ def write_date(file_name):
 		line = file_lines[n]		
 		if re.search("^START.+:", line):
 			file_lines[n] = "START " + ": " + str(next_start_date.strftime("%Y %m %d ")) + "0 0 0\n"
-			#file_lines[n] = "START " + ": " + str(next_start_date.strftime("%Y %m %d %H %M %S")) + "\n"
 
 		elif re.search("^END.+:", line):	
 			file_lines[n] = "END " + ": " + str(next_end_date.strftime("%Y %m %d ")) + "0 0 0\n"
-			#file_lines[n] = "END " + ": " + str(next_end_date.strftime("%Y %m %d %H %M %S")) + "\n"
 			
 	with open(file_name,"w") as file:
 		for n in range(0,number_of_lines) :
 			file.write(file_lines[n])
 
-#####################################################
-def interpolate_gfs():
-
-	os.chdir(interpolate_gfs_dir)
-		
-	write_date("Interpolate.dat")	
-	output = subprocess.call(["Interpolate.bat"])
-	
-	hdf_files = glob.iglob(os.path.join(interpolate_gfs_dir, file_name_gfs))
-	for file in hdf_files:
-		shutil.copy(file, boundary_conditions_dir)
-	
-	files = glob.glob("*.hdf5")
-	for filename in files:
-		os.remove(filename)		
 #####################################################
 def copy_initial_files(level):
 
@@ -169,36 +67,31 @@ def backup(level):
 	os.chdir(results_dir[level])
 	
 	files = glob.glob("MPI*.*")
-	for filename in files:
-		os.remove(filename)
+	for file in files:
+		os.remove(file)
 		
-	result_files = glob.iglob(os.path.join(results_dir[level],"*.hdf5"))
-	for file in result_files:
+	files = glob.iglob(os.path.join(results_dir[level],"*.hdf*"))
+	for file in files:
 		shutil.copy(file, backup_dir_date)
+		os.remove(file)
 		
-	fin_files = glob.iglob(os.path.join(results_dir[level],"*_2.fin*"))
-	for file in fin_files:
+	files = glob.iglob(os.path.join(results_dir[level],"*.fin*"))
+	for file in files:
 		shutil.copy(file, backup_dir_date)
-		
-	files = glob.glob("*.fin*")
-	for filename in files:
-		os.remove(filename)
+		os.remove(file)
 	
-	files = glob.glob("*.hdf5")
-	for filename in files:
-		os.remove(filename)
+	if convert2netcdf == 1:
+		os.chdir(convert2netcdf_dir)
+		files = glob.iglob(os.path.join(convert2netcdf_dir,"*.nc"))
+		for file in files:
+			shutil.copy(file, backup_dir_date)
+			os.remove(file)
+			
 #####################################################
-def read_keyword_value(keyword_name): 
-
-	with open(ftp_credentials_file) as file:
-		for line in file:
-			if re.search("^"+keyword_name+".+: ", line):
-				words = line.split()
-				value = words[2]
-				return value
-#####################################################
-def convert2netcdf(convert2netcdf_file, date, hdf_file):
+def convert2netcdf(date, hdf_file):
 		
+	convert2netcdf_file = convert2netcdf_dir + "//Convert2netcdf.dat"
+	
 	with open(convert2netcdf_file) as file:
 		file_lines = file.readlines()
 		
@@ -211,7 +104,7 @@ def convert2netcdf(convert2netcdf_file, date, hdf_file):
 			file_lines[n] = "HDF_FILE " + ": " + backup_dir_date + "\\" + hdf_file + "\n"
 
 		elif re.search("^NETCDF_FILE.+:", line):	
-			file_lines[n] = "NETCDF_FILE " + ": " + convert2netcdf_path + "\\" + hdf_file + ".nc\n"
+			file_lines[n] = "NETCDF_FILE " + ": " + convert2netcdf_dir + "\\" + hdf_file + ".nc\n"
 			
 		elif re.search("^REFERENCE_TIME.+:", line):
 			file_lines[n] = "REFERENCE_TIME " + ": " + str(next_start_date.strftime("%Y %m %d ")) + "0 0 0\n"
@@ -220,13 +113,27 @@ def convert2netcdf(convert2netcdf_file, date, hdf_file):
 		for n in range(0,number_of_lines) :
 			file.write(file_lines[n])
 	
-	os.chdir(convert2netcdf_path)
+	os.chdir(convert2netcdf_dir)
 	output = subprocess.call(["Convert2netcdf.exe"])
 
 #####################################################
+#Funcao para envio de mensagem pelo Bot do Telegram
+def telegram_msg(message):
+        if telegram_messages == 1:
+                #message = "hello from your telegram bot"
+                urlbot = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={chat_id}&text={message}"
+                print(requests.get(urlbot).json()) # this sends the message
+#####################################################
 
-read_date()
+if forecast_mode == 1:
 
+        initial_date = datetime.datetime.combine(datetime.datetime.today(), datetime.time.min) + datetime.timedelta(days = refday_to_start)
+        
+else:
+        interval = end - start
+        number_of_runs = interval.days
+        initial_date = datetime.datetime.combine(start, datetime.time.min)
+		
 for run in range (0,number_of_runs):	
 
 	#Update dates
@@ -239,26 +146,74 @@ for run in range (0,number_of_runs):
 		os.remove(filename)
 				
 	#Copy Meteo boundary conditions
-	
-	dir_date = (dir_meteo+"\\"+str(next_start_date.strftime("%Y%m%d")) + "_" + str(next_end_date.strftime("%Y%m%d")))
-	#os.chdir(dir_date)
+	if number_of_meteo > 0:
+		f_missing = True
+		for meteo in range(0, number_of_meteo):
+			
+			f_meteo = (dir_meteo[meteo]+"//"+str(next_start_date.strftime("%Y%m%d")) + "_" + str(next_end_date.strftime("%Y%m%d"))+"//"+file_name_meteo[meteo])
+			
+			f_exists = os.path.exists(f_meteo)
+			
+			if f_exists:
+				f_size = os.path.getsize(f_meteo)
+			
+				if f_size > f_min_meteo:
 
-	hdf5_files = glob.iglob(os.path.join(dir_date,file_name_meteo))
-	for file in hdf5_files:
-		shutil.copy(file, boundary_conditions_dir)
-
-	os.rename(file_name_meteo, "meteo.hdf5")	
-	
+					shutil.copy(f_meteo, boundary_conditions_dir)
+					os.rename(file_name_meteo[meteo], "meteo.hdf5")
+					print("Get meteo from: " + f_meteo)
+					f_missing = False
+					break
+			
+		if f_missing == True:
+			msg = "Message from XMART: model " + model_name + "\nMeteo file is missing or is too small for " + str(next_start_date.strftime("%Y%m%d"))
+			telegram_msg(msg)
+			sys.exit (msg)
+		
 	#Copy ocean boundary conditions
-	file_name_hydro = (dir_father_phy+"//"+str(next_start_date.strftime("%Y%m%d")) + "_" + str(next_end_date.strftime("%Y%m%d"))+"//"+file_name_phy)
-	shutil.copy(file_name_hydro, boundary_conditions_dir)
+	#Hydrodynamics
+	if number_of_hydro > 0:
+		f_hydro = (dir_hydro+"//"+str(next_start_date.strftime("%Y%m%d")) + "_" + str(next_end_date.strftime("%Y%m%d"))+"//"+file_hydro)
+		f_exists = os.path.exists(f_hydro)
+		
+		if f_exists:
+			f_size = os.path.getsize(f_hydro)
+			if f_size > f_min_hydro:
+				shutil.copy(f_hydro, boundary_conditions_dir)
+			else:
+				msg = "Message from XMART: model " + model_name + "\nHydrodynamic BC file is too small for " + str(next_start_date.strftime("%Y%m%d"))
+				telegram_msg(msg)
+				sys.exit (msg)
+		else:
+			msg = "Message from XMART: model " + model_name + "\nHydrodynamic BC file is missing for " + str(next_start_date.strftime("%Y%m%d"))
+			telegram_msg(msg)
+			sys.exit (msg)
 	
+	#Water properties
+	if number_of_wp > 0:
+		f_wp = (dir_wp+"//"+str(next_start_date.strftime("%Y%m%d")) + "_" + str(next_end_date.strftime("%Y%m%d"))+"//"+file_wp)
+		f_exists = os.path.exists(f_wp)
+		
+		if f_exists:
+			f_size = os.path.getsize(f_wp)
+			if f_size > f_min_wp:
+				shutil.copy(f_wp, boundary_conditions_dir)
+			else:
+				msg = "Message from XMART: model " + model_name + "\nWater Properties BC file is too small for " + str(next_start_date.strftime("%Y%m%d"))
+				telegram_msg(msg)
+				sys.exit (msg)
+		else:
+			msg = "Message from XMART: model " + model_name + "\nWater Properties BC file is missing for " + str(next_start_date.strftime("%Y%m%d"))
+			telegram_msg(msg)
+			sys.exit (msg)
+			
 	#Copy rivers boundary conditions
-	# dir_rivers_date = (dir_rivers+"//"+str(next_start_date.strftime("%Y%m%d")))
-	
-	# river_files = glob.iglob(os.path.join(dir_rivers_date,"*.dat"))
-	# for file in river_files:
-		# shutil.copy(file, boundary_conditions_dir)
+	if rivers == 1:
+		dir_rivers_date = (dir_rivers+"//"+str(next_start_date.strftime("%Y%m%d")))
+		
+		river_files = glob.iglob(os.path.join(dir_rivers_date,"*.dat"))
+		for file in river_files:
+			shutil.copy(file, boundary_conditions_dir)
 		
 	##############################################
 	#MOHID
@@ -278,68 +233,42 @@ for run in range (0,number_of_runs):
 	#Run
 	os.chdir(exe_dir)
 	output = subprocess.call(["run_MPI.bat"])
+	#output = subprocess.call(["run_MPI.sh"])
 	
 	if not ("Program Mohid Water successfully terminated") in open(mohid_log).read():
-		sys.exit ("Program Mohid Water was not successfully terminated"+"\n"+"Check out Mohid log file")
-	
-	# os.chdir(exe_dir)
-	# output = subprocess.call(["/home/mohid/Aplica/SC_PR_SP/Level_1/exe/run.sh"])
-	
-	# if not ("Program Mohid Water successfully terminated") in open(mohid_log).read():
-		# sys.exit ("Program Mohid Water was not successfully terminated"+"\n"+"Check out Mohid log file")
-	
+		msg = "Message from XMART: model " + model_name + "\nProgram Mohid Water was not successfully terminated for " + str(next_start_date.strftime("%Y%m%d"))
+		telegram_msg(msg)
+		sys.exit (msg)
+		
 	#Backup
 	for level in range (0,number_of_domains):
-		backup(level)
-	
-	#Store ftp
-	if store_ftp == 1:
-	
-		level = 1 #Store ftp just for domain 2
 	
 		date = str(next_start_date.strftime("%Y%m%d")) + "_" + str(next_end_date.strftime("%Y%m%d"))
 		
-		convert2netcdf(convert2netcdf_file, date, "Hydrodynamic_2_Surface.hdf5")
-		convert2netcdf(convert2netcdf_file, date, "WaterProperties_2_Surface.hdf5")
+		if convert2netcdf == 1:
 		
-		os.chdir(dirpath)
-		
-		keyword_name = ("server","user","password")
-		number_of_keywords = len(keyword_name)
+			for file in range (0, len(convert_list)):
+				convert2netcdf(date, convert_list[file])
 
-		keyword_value = [0]*number_of_keywords
-		
-		for n in range (0,number_of_keywords):
-			keyword_value[n] = read_keyword_value(keyword_name[n])
-
-		server = keyword_value[0]
-		user = keyword_value[1]
-		password = keyword_value[2]
-
-		ftp=FTP(server)
-		ftp.login(user,password)
-
-		ftp.cwd("/home/maretec/ftplocal/PR_SC/")
-		
-		if not date in ftp.nlst():
-			ftp.mkd(date)
+		backup(level)
+	
+		#Send ftp
+		if send_ftp == 1:
 			
-		ftp.cwd(date)
-		
-		os.chdir(convert2netcdf_path)
-		
-		filename = "Hydrodynamic_2_Surface.hdf5.nc"
-		#ftp.set_pasv(False)
-		ftp.storbinary('STOR '+filename,open(filename,'rb'))
-		
-		filename = "WaterProperties_2_Surface.hdf5.nc"
-		#ftp.set_pasv(False)
-		ftp.storbinary('STOR '+filename,open(filename,'rb'))
-		
-		backup_dir_date = (backup_dir[level]+"\\" + date)
-		os.chdir(backup_dir_date)
-		filename = "Hydrodynamic_2_Surface.hdf5"
-		#ftp.set_pasv(False)
-		ftp.storbinary('STOR '+filename,open(filename,'rb'))
+			ftp=FTP(server)
+			ftp.login(user,password)
+			ftp.cwd(cwd)
+			
+			if not date in ftp.nlst():
+				ftp.mkd(date)
+				
+			ftp.cwd(date)
+			
+			backup_dir_date = (backup_dir[level]+"\\" + date)
+			os.chdir(backup_dir_date)
+			
+			for file in range (0, len(ftp_list)):
+				#ftp.set_pasv(False)
+				ftp.storbinary('STOR '+ftp_list[file],open(ftp_list[file],'rb'))
 
-		ftp.quit()
+			ftp.quit()

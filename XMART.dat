@@ -1,7 +1,0 @@
-FORECAST_MODE                 : 0
-REFDAY_TO_START               : 1
-NUMBER_OF_RUNS                : 7
-
-START                 : 2021 09 20 0 0 0
-END                   : 2021 12 20 0 0 0
-
