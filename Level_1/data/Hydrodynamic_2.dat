@@ -43,7 +43,7 @@ INITIAL_ELEVATION         : 0
 !INITIAL_ELEVATION_VALUE   : 0.8
 
 !Output Options
-TIME_SERIE                : 0
-TIME_SERIE_LOCATION       : ..\General Data\TimeSeriesLocation.dat
+TIME_SERIE                : 1 
+TIME_SERIE_LOCATION       : ../GeneralData/TimeSeries/TimeSeries_Maregrafos.dat
 OUTPUT_TIME              : 0  3600
 SURFACE_OUTPUT_TIME      : 0  900

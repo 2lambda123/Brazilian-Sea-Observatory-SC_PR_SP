@@ -17,7 +17,7 @@ INITIALIZATION_METHOD        : HDF
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
-FILENAME                     : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+FILENAME                     : ../GeneralData/BoundaryConditions/CMEMS.hdf5
 
 DEFAULTVALUE                 : 0.
 
@@ -47,7 +47,7 @@ INITIALIZATION_METHOD        : HDF
 FIELD4D                 : 1
 SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
-FILENAME                     : ../GeneralData/BoundaryConditions/Plataforma_SE.hdf5
+FILENAME                     : ../GeneralData/BoundaryConditions/CMEMS.hdf5
 
 DEFAULTVALUE                 : 25.
 

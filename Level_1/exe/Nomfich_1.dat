@@ -1,6 +1,6 @@
 IN_BATIM                  : ../GeneralData/DigitalTerrain/Griddata_SC_PR_SP_1_60_v01.dat
 ROOT                      : ../res
-ROOT_SRT                  : ../res/Run1/
+ROOT_SRT                  : ../res/run1/
 DT_LOG                    : ../res/DT_Log_1.log
 SURF_DAT                  : ../data/Atmosphere_1.dat
 SURF_HDF                  : ../res/Atmosphere_1.hdf

@@ -1850,3 +1850,234 @@ HDF5-DIAG: Error detected in HDF5 (1.8.15) thread 0:
  FileName../res/MPI_1_Turbulence_1.hdf5
  FatherGroupName =/Grid/OpenPoints/
 GetHDF5GroupID - ModuleHDF5 - ERR10
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :           0.00   0h  0min  0s
+
+ Total CPU time         :           0.00
+
+ CPU usage (%)          :           0.00
+
+ 
+ ----------------------------------------------------------
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :           0.00   0h  0min  0s
+
+ Total CPU time         :           0.00
+
+ CPU usage (%)          :           0.00
+
+ 
+ ----------------------------------------------------------
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ../res/Turbulence_1.hdf5
+ 
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 0:
+  #000: H5G.c line 467 in H5Gopen2(): unable to open group
+    major: Symbol table
+    minor: Can't open object
+  #001: H5Gint.c line 320 in H5G__open_name(): group not found
+    major: Symbol table
+    minor: Object not found
+  #002: H5Gloc.c line 430 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #003: H5Gtraverse.c line 861 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #004: H5Gtraverse.c line 641 in H5G_traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #005: H5Gloc.c line 385 in H5G_loc_find_cb(): object 'OpenPoints' doesn't exist
+    major: Symbol table
+    minor: Object not found
+ FileName../res/MPI_6_Turbulence_1.hdf5
+ FatherGroupName =/Grid/OpenPoints/
+GetHDF5GroupID - ModuleHDF5 - ERR10
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ../res/Turbulence_1.hdf5
+ 
+ ../res/Hydrodynamic_1.hdf5
+ 
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 0:
+  #000: H5D.c line 365 in H5Dopen2(): not a dataset
+    major: Dataset
+    minor: Inappropriate type
+HDF5ReadDataR8_2D - ModuleHDF5 - ERR20
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ../res/Turbulence_1.hdf5
+ 
+ ../res/Hydrodynamic_1.hdf5
+ 
+ ../res/Hydrodynamic_1_Surface.hdf5
+ 
+ ../res/Assimilation_1.hdf5
+ 
+ ../res/WaterProperties_1.hdf5
+ 
+ ../res/Atmosphere_1.hdf5
+ 
+ ../res/WaterProperties_1.fin5
+ 
+ ../res/Hydrodynamic_1.fin
+ 
+ ../res/GOTM_1.fin
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :         293.01   0h  4min 53s
+
+ Total CPU time         :         293.00
+
+ CPU usage (%)          :         100.00
+
+ 
+ ----------------------------------------------------------
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ../res/Turbulence_1.hdf5
+ 
+ ../res/Hydrodynamic_1.hdf5
+ 
+ ../res/Hydrodynamic_1_Surface.hdf5
+ 
+ ../res/Assimilation_1.hdf5
+ 
+ ../res/WaterProperties_1.hdf5
+ 
+ ../res/Atmosphere_1.hdf5
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :         131.84   0h  2min 11s
+
+ Total CPU time         :         131.84
+
+ CPU usage (%)          :         100.00
+
+ 
+ ----------------------------------------------------------
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ../res/Turbulence_1.hdf5
+ 
+ ../res/Hydrodynamic_1.hdf5
+ 
+ ../res/Hydrodynamic_1_Surface.hdf5
+ 
+ ../res/Assimilation_1.hdf5
+ 
+ ../res/WaterProperties_1.hdf5
+ 
+ ../res/Atmosphere_1.hdf5
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :         150.99   0h  2min 30s
+
+ Total CPU time         :         150.51
+
+ CPU usage (%)          :          99.68
+
+ 
+ ----------------------------------------------------------
