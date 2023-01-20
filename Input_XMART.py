@@ -1,5 +1,6 @@
 import datetime, os
 
+<<<<<<< HEAD
 forecast_mode = 1
 refday_to_start = 0 
 number_of_runs = 4 
@@ -7,6 +8,15 @@ number_of_runs = 4
 #Data de início e fim se forecast_mode = 0
 start = datetime.date(2022,12,16)
 end = datetime.date(2022,12,21)
+=======
+forecast_mode = 0
+refday_to_start = 0 
+number_of_runs = 2
+
+#Data de início e fim se forecast_mode = 0
+start = datetime.date(2022,11,25)
+end = datetime.date(2022,11,26)
+>>>>>>> 5d8dc782f3278b84e7859c812403ac2611a2ee19
 
 dirpath = os.getcwd()
 
@@ -27,9 +37,13 @@ data_dir = [0]*number_of_domains
 data_dir [0] = (dirpath+"//Level_1//data")
 
 backup_dir = [0]*number_of_domains
+<<<<<<< HEAD
 backup_dir [0] = (r"/ciram/saida/mohid/SC_PR_SP")
 
 timeseries_backup = 1
+=======
+backup_dir [0] = (r"D:\MOHID\SC_PR_SP\Backup")
+>>>>>>> 5d8dc782f3278b84e7859c812403ac2611a2ee19
 
 convert2netcdf = 0
 convert2netcdf_dir = (dirpath+"//Work//Hdf5toNetcdf")
@@ -48,11 +62,13 @@ dir_meteo [0] = (r"/ciram/saida/cptec/wrf7km")
 file_name_meteo [0] = "wrf.hdf5"
 
 dir_meteo [1]= (r"/ciram/saida/nomads/gfs25")
+
 file_name_meteo[1] = "gfs.hdf5"
 
 number_of_hydro = 1
 dir_hydro = [0]*number_of_hydro
 file_hydro = [0]*number_of_hydro
+
 
 dir_hydro = (r"/ciram/saida/cmems/phy")
 file_hydro = "CMEMS.hdf5"

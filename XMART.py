@@ -282,3 +282,4 @@ for run in range (0,number_of_runs):
                 ftp.storbinary('STOR '+ftp_list[file],open(ftp_list[file],'rb'))
 
             ftp.quit()
+
