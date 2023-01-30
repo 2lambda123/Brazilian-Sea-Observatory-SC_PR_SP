@@ -9,7 +9,7 @@ COORD_Y                   : -24.6772
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SP_Ribeira_do_Iguape.dat
 FLOW_COLUMN               : 2
 
 <<beginproperty>>
@@ -29,8 +29,8 @@ COORD_Y                   : -24.442
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
-FLOW_COLUMN               : 3
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SP_Rios_Una_do_Prelado_e_Guarau.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -42,15 +42,15 @@ TIME_SERIE_COLUMN         : 3
 <enddischarge>
 
 <begindischarge>
-NAME                      : Rio Itanhaém 
+NAME                      : Rio Itanhaem 
 DESCRIPTION               : Média mensal
 COORD_X                   : -46.797 
 COORD_Y                   : -24.1958
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
-FLOW_COLUMN               : 4
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SP_Rio_Itanhaem.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -69,8 +69,8 @@ COORD_Y                   : -23.9135
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
-FLOW_COLUMN               : 5
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SP_Regiao_Santos.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -89,8 +89,8 @@ COORD_Y                   : -23.9135
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
-FLOW_COLUMN               : 6
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SP_Rio_Cubatao_Santos.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -109,8 +109,8 @@ COORD_Y                   : -23.7636
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
-FLOW_COLUMN               : 7
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SP_Rios_Itapanhau_Itaguare_Guaratuba_Una.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -129,8 +129,8 @@ COORD_Y                   : -23.6287
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
-FLOW_COLUMN               : 8
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SP_Rios_Juqueriquere_Maranduba_Escuro.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -149,8 +149,8 @@ COORD_Y                   : -23.349
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_SP.dat
-FLOW_COLUMN               : 9
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SP_Rios_Puruba_Grande.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -170,7 +170,7 @@ COORD_Y                   : -25.8575
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_Guaratuba.dat
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_Guaratuba_Rio_Cubatao.dat
 FLOW_COLUMN               : 2
 
 <<beginproperty>>
@@ -190,8 +190,8 @@ COORD_Y                   : -25.8325
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_Guaratuba.dat
-FLOW_COLUMN               : 3
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_Guaratuba_Rio_Sao_Joao.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -210,8 +210,8 @@ COORD_Y                   : -25.8027
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_Guaratuba.dat
-FLOW_COLUMN               : 4
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_Guaratuba_Rio_Alegre.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -230,8 +230,8 @@ COORD_Y                   : -25.9017
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_Guaratuba.dat
-FLOW_COLUMN               : 5
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_Guaratuba_Rio_Boguacu.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -253,7 +253,7 @@ COORD_Y                   : -25.2484
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_CEP.dat
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Guaraquecaba.dat
 FLOW_COLUMN               : 2
 
 <<beginproperty>>
@@ -273,8 +273,8 @@ COORD_Y                   : -25.4915
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_CEP.dat
-FLOW_COLUMN               : 3
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Nhundiaquara.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -293,8 +293,8 @@ COORD_Y                   : -25.2662
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_CEP.dat
-FLOW_COLUMN               : 4
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Serra_Negra.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -312,8 +312,8 @@ COORD_X                   : -48.6677
 COORD_Y                   : -25.4417
 DISCHARGE_UNIFORM         : 1
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_CEP.dat
-FLOW_COLUMN               : 5
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Faisqueira.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -332,8 +332,8 @@ COORD_Y                   : -25.4006
 DISCHARGE_UNIFORM         : 1
 !DEFAULT_FLOW_VALUE        : 1.0
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_CEP.dat
-FLOW_COLUMN               : 6
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Cachoeira.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -351,8 +351,8 @@ COORD_X                   : -48.4686
 COORD_Y                   : -25.5525
 DISCHARGE_UNIFORM         : 1
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SerieMensalVazao_CEP.dat
-FLOW_COLUMN               : 7
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Guaraguacu.dat
+FLOW_COLUMN               : 2
 
 <<beginproperty>>
 NAME                      : temperature
@@ -373,7 +373,7 @@ COORD_X                   : -49.303823
 COORD_Y                   : -28.896230
 DISCHARGE_UNIFORM         : 1
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/Vazao_ararangua.dat
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SC_Rio_Ararangua.dat
 FLOW_COLUMN               : 2
 
 <<beginproperty>>
@@ -392,7 +392,7 @@ COORD_X                   : -48.745231
 COORD_Y                   : -28.495197
 DISCHARGE_UNIFORM         : 1
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/Vazao_tubarao.dat
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SC_Rio_Tubarao.dat
 FLOW_COLUMN               : 2
 
 <<beginproperty>>
@@ -411,7 +411,7 @@ COORD_X                   : -48.63320
 COORD_Y                   : -27.69830
 DISCHARGE_UNIFORM         : 1
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/Vazao_santoamaro.dat
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SC_Rio_Santo_Amaro.dat
 FLOW_COLUMN               : 2
 
 <<beginproperty>>
@@ -430,7 +430,7 @@ COORD_X                   : -48.61270
 COORD_Y                   : -27.24620
 DISCHARGE_UNIFORM         : 1
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/Vazao_saojoaobatista.dat
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SC_Rio_Sao_Joao_Batista.dat
 FLOW_COLUMN               : 2
 
 <<beginproperty>>
@@ -449,7 +449,7 @@ COORD_X                   : -48.60440
 COORD_Y                   : -26.99890
 DISCHARGE_UNIFORM         : 1
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/Vazao_camboriu.dat
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SC_Rio_Camboriu.dat
 FLOW_COLUMN               : 2
 
 <<beginproperty>>
@@ -468,7 +468,7 @@ COORD_X                   : -48.63410
 COORD_Y                   : -26.91350
 DISCHARGE_UNIFORM         : 1
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/Vazao_itajai.dat
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SC_Rio_Itajai.dat
 FLOW_COLUMN               : 2
 
 <<beginproperty>>
@@ -487,7 +487,7 @@ COORD_X                   : -48.66150
 COORD_Y                   : -26.58220
 DISCHARGE_UNIFORM         : 1
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/Vazao_guaramirim.dat
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SC_Rio_Guaramirim.dat
 FLOW_COLUMN               : 2
 
 <<beginproperty>>
@@ -506,7 +506,7 @@ COORD_X                   : -48.76540
 COORD_Y                   : -26.20650
 DISCHARGE_UNIFORM         : 1
 
-DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/Vazao_joinville.dat
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SC_Rio_Joinville.dat
 FLOW_COLUMN               : 2
 
 <<beginproperty>>

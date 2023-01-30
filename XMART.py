@@ -218,12 +218,23 @@ for run in range (0,number_of_runs):
             sys.exit (msg)
             
     #Copy rivers boundary conditions
-    if rivers == 1:
-        dir_rivers_date = (dir_rivers+"//"+str(next_start_date.strftime("%Y%m%d")))
-        
-        river_files = glob.iglob(os.path.join(dir_rivers_date,"*.dat"))
+    if rivers == 1:    
+    
+        river_files = glob.iglob(os.path.join(dir_rivers_average,"*.dat"))
         for file in river_files:
             shutil.copy(file, boundary_conditions_dir)
+            
+        if forecast_mode == 1:
+            dir_rivers_date = (dir_rivers_forecast+"//"+str(initial_date.strftime("%Y%m%d")))
+        
+        else:
+            dir_rivers_date = (dir_rivers_forecast+"//"+str(next_start_date.strftime("%Y%m%d")))
+        
+        f_exists = os.path.exists(dir_rivers_date)
+        if f_exists:
+            river_files = glob.iglob(os.path.join(dir_rivers_date,"*.dat"))
+            for file in river_files:
+                shutil.copy(file, boundary_conditions_dir)
         
     ##############################################
     #MOHID

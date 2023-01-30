@@ -67,8 +67,9 @@ file_wp = [0]*number_of_wp
 #dir_wp = (r"")
 #file_wp ="WaterProperties_2_w1.hdf5"
 
-rivers = 0
-dir_rivers = (r"/dados1/mohid/backup/QSDC/")
+rivers = 1
+dir_rivers_forecast = (r"/ciram/saida/geoglows/MohidInput")
+dir_rivers_average = (dirpath+"//Level_1//GeneralData//BoundaryConditions//Rios")
 
 #Send ftp (No = 0 Yes = 1)
 send_ftp = 0
