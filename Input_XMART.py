@@ -1,5 +1,5 @@
 import datetime, os
-
+    
 forecast_mode = 1
 refday_to_start = 0 
 number_of_runs = 4 
@@ -49,23 +49,21 @@ dir_meteo [0] = (r"/ciram/saida/cptec/wrf7km")
 file_name_meteo [0] = "wrf.hdf5"
 
 dir_meteo [1]= (r"/ciram/saida/nomads/gfs25")
-
 file_name_meteo[1] = "gfs.hdf5"
 
 number_of_hydro = 1
 dir_hydro = [0]*number_of_hydro
 file_hydro = [0]*number_of_hydro
 
-
-dir_hydro = (r"/ciram/saida/cmems/phy")
-file_hydro = "CMEMS.hdf5"
+dir_hydro[0] = (r"/ciram/saida/cmems/phy")
+file_hydro[0] = "CMEMS.hdf5"
 
 number_of_wp = 0
 dir_wp = [0]*number_of_wp
 file_wp = [0]*number_of_wp
 
-#dir_wp = (r"")
-#file_wp ="WaterProperties_2_w1.hdf5"
+#dir_wp [0]= (r"//")
+#file_wp [0]="WaterProperties_2.hdf5"
 
 rivers = 1
 dir_rivers_forecast = (r"/ciram/saida/geoglows/MohidInput")

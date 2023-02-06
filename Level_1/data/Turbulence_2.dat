@@ -14,7 +14,7 @@ DEFAULTVALUE            : 180
 TYPE_ZUV                : z
 FILE_IN_TIME            : NONE
 INITIALIZATION_METHOD   : Sponge
-SPONGE_OUT              : 900
+SPONGE_OUT              : 1800
 SPONGE_CELLS            : 10
 <end_viscosity_h>
 
