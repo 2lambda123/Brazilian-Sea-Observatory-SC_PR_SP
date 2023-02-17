@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NamedGeometryCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Proj4String> +proj=longlat +datum=WGS84 +no_defs</Proj4String>
+  <NamedGeometries>
+    <NamedGeometry>
+      <ID>0</ID>
+      <Name>Ribeira do Iguape</Name>
+      <GeometryWKT>POINT (-47.5641 -24.6772)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>1</ID>
+      <Name>Rios Una do Prelado e Guarau</Name>
+      <GeometryWKT>POINT (-47.0805 -24.442)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>2</ID>
+      <Name>Rio Itanhaém</Name>
+      <GeometryWKT>POINT (-46.797 -24.1958)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>3</ID>
+      <Name>Regiao Santos</Name>
+      <GeometryWKT>POINT (-46.3636 -23.9135)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>4</ID>
+      <Name>Rios Itapanhaú, Itaguarê, Guaratuba e  Una</Name>
+      <GeometryWKT>POINT (-45.8969 -23.7636)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>5</ID>
+      <Name>Rios Juqueriquerê, Maranduba e escuro</Name>
+      <GeometryWKT>POINT (-45.3632 -23.6287)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>6</ID>
+      <Name>Rios Puruba e Rio Grande</Name>
+      <GeometryWKT>POINT (-44.9004 -23.349)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+  </NamedGeometries>
+</NamedGeometryCollection>

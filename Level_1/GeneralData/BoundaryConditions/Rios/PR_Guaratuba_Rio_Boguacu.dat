@@ -1,0 +1,21 @@
+TIME_CYCLE : 1                            				
+SERIE_INITIAL_DATA : 2008 1 1 0 0 0                       				
+TIME_UNITS : MONTHS                            				
+NAME : Baia Guaratuba                         				
+
+!Para o cálculo das vazões foram consideradas as Áreas Estratégicas de Gestão (AEG) do Plano da Bacia Hidrográfica Litorânea  
+!2-Rio Boguaçu				
+<BeginTimeSerie>                              				
+0 8.8
+1 8.7
+2 6.5
+3 5.7
+4 6.5
+5 6.1
+6 3.8
+7 3.3
+8 3.6
+9 6.1
+10 5.4
+11 5.0
+<EndTimeSerie>                                  

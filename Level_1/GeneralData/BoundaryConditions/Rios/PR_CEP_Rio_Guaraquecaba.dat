@@ -1,0 +1,21 @@
+TIME_CYCLE : 1                                  
+SERIE_INITIAL_DATA : 2008 1 1 0 0 0                             
+TIME_UNITS : MONTHS                                  
+NAME : CEP                             
+
+!Para o cálculo das vazões foram consideradas as Áreas Estratégicas de Gestão (AEG) do Plano da Bacia Hidrográfica Litorânea  
+!2-Rio Guaraqueçaba 
+<BeginTimeSerie>                                    
+0 50.2 
+1 57.1 
+2 47.6 
+3 36.1 
+4 26.4 
+5 19.5 
+6 17.9 
+7 14.3 
+8 19.1 
+9 23.9 
+10 27.1
+11 30.9
+<EndTimeSerie>                                        

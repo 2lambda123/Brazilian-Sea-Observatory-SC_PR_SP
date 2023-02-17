@@ -1,0 +1,21 @@
+TIME_CYCLE : 1                                  
+SERIE_INITIAL_DATA : 2008 1 1 0 0 0                             
+TIME_UNITS : MONTHS                                  
+NAME : CEP                             
+
+!Para o cálculo das vazões foram consideradas as Áreas Estratégicas de Gestão (AEG) do Plano da Bacia Hidrográfica Litorânea  
+!2-Rio Faisqueira    
+<BeginTimeSerie>                                    
+0 63.2 
+1 63.7 
+2 57.6 
+3 43.3 
+4 34.3 
+5 28.4 
+6 28.1 
+7 21.1 
+8 29.6 
+9 34.5 
+10 42.0
+11 49.2
+<EndTimeSerie>                                        

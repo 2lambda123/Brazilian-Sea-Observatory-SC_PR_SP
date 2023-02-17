@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NamedGeometryCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Proj4String> +proj=longlat +datum=WGS84 +no_defs</Proj4String>
+  <NamedGeometries>
+    <NamedGeometry>
+      <ID>0</ID>
+      <Name>Rio Guaraqueçaba</Name>
+      <GeometryWKT>POINT (-48.3431 -25.2484)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>1</ID>
+      <Name>Rio Serra Negra</Name>
+      <GeometryWKT>POINT (-48.4188 -25.2662)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>2</ID>
+      <Name>Rio Faisqueira</Name>
+      <GeometryWKT>POINT (-48.6677 -25.4417)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>3</ID>
+      <Name>Rio Cachoeira</Name>
+      <GeometryWKT>POINT (-48.7264 -25.4006)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>4</ID>
+      <Name>Rio Nhundiaquara</Name>
+      <GeometryWKT>POINT (-48.7098 -25.4915)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>5</ID>
+      <Name>Rio Guaraguaçu</Name>
+      <GeometryWKT>POINT (-48.4686 -25.5525)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+  </NamedGeometries>
+</NamedGeometryCollection>

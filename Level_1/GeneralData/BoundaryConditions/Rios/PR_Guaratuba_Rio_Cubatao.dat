@@ -1,0 +1,21 @@
+TIME_CYCLE : 1                            				
+SERIE_INITIAL_DATA : 2008 1 1 0 0 0                       				
+TIME_UNITS : MONTHS                            				
+NAME : Baia Guaratuba                         				
+
+!Para o cálculo das vazões foram consideradas as Áreas Estratégicas de Gestão (AEG) do Plano da Bacia Hidrográfica Litorânea  
+!2-Rio Cubatão			
+<BeginTimeSerie>                              				
+0 74.8 
+1 73.9 
+2 55.4 
+3 48.6 
+4 55.1 
+5 51.4 
+6 32.4 
+7 28.4 
+8 30.3 
+9 51.9 
+10 45.4
+11 42.0
+<EndTimeSerie>                                  

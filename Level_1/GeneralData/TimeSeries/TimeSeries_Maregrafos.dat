@@ -1,0 +1,52 @@
+!Time Series Locations for BAT_FPOLIS.dat
+DT_OUTPUT_TIME            : 300
+MAX_BUFFER_SIZE           : 10000
+
+<BeginTimeSerie>
+NAME                      : IPAZ
+COORD_X                   : -48.490570
+COORD_Y                   : -26.179934
+LOCALIZATION_K            : 63
+<EndTimeSerie>
+
+<BeginTimeSerie>
+NAME                      : BVELHA
+COORD_X                   : -48.683626
+COORD_Y                   : -26.690465
+LOCALIZATION_K            : 63
+<EndTimeSerie>
+
+<BeginTimeSerie>
+NAME                      : BALCAMB
+COORD_X                   : -48.592896
+COORD_Y                   : -26.992917
+LOCALIZATION_K            : 63
+<EndTimeSerie>
+
+<BeginTimeSerie>
+NAME                      : FPOLIS
+COORD_X                   : -48.564985
+COORD_Y                   : -27.857747
+LOCALIZATION_K            : 63
+<EndTimeSerie>
+
+<BeginTimeSerie>
+NAME                      : IMBI
+COORD_X                   : -48.646165
+COORD_Y                   : -28.228250
+LOCALIZATION_K            : 63
+<EndTimeSerie>
+
+<BeginTimeSerie>
+NAME                      : PTORRES
+COORD_X                   : -49.707766
+COORD_Y                   : -29.327815
+LOCALIZATION_K            : 63
+<EndTimeSerie>
+
+<BeginTimeSerie>
+NAME                      : BRINC
+COORD_X                   : -49.230
+COORD_Y                   : -28.850
+LOCALIZATION_K            : 63
+<EndTimeSerie>

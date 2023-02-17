@@ -1,0 +1,21 @@
+TIME_CYCLE : 1                                  
+SERIE_INITIAL_DATA : 2008 1 1 0 0 0                             
+TIME_UNITS : MONTHS                                  
+NAME : CEP                             
+
+!Para o cálculo das vazões foram consideradas as Áreas Estratégicas de Gestão (AEG) do Plano da Bacia Hidrográfica Litorânea  
+!2-Rio Serra Negra  
+<BeginTimeSerie>                                    
+0 97.8 
+1 98.6 
+2 89.3 
+3 67.0 
+4 53.1 
+5 44.1 
+6 43.5 
+7 32.6 
+8 45.9 
+9 53.4 
+10 65.0
+11 76.2
+<EndTimeSerie>                                        
