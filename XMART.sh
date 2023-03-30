@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/mohid/Aplica/SC_PR_SP
+cd /home/guilherme.franz/Aplica/SC_PR_SP
 
-/home/mohid/miniconda3/bin/python /home/mohid/Aplica/SC_PR_SP/XMART.py >> /home/mohid/Aplica/SC_PR_SP/XMART.log 2>&1
+/home/guilherme.franz/miniconda3/bin/python /home/guilherme.franz/Aplica/SC_PR_SP/XMART.py >> /home/guilherme.franz/Aplica/SC_PR_SP/XMART.log 2>&1
 

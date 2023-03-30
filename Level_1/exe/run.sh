@@ -4,17 +4,17 @@
 . /opt/intel/oneapi/setvars.sh
 
 ###### zlib-1.2.13 #########
-ZLIB=/home/mohid/apps_intel/zlib-1.2.13
+ZLIB=/home/guilherme.franz/apps_intel/zlib-1.2.13
 export PATH=$PATH:$ZLIB/lib:$ZLIB/include
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ZLIB/lib
 
 ####### hdf5-1.8.17 #######
-HDF5=/home/mohid/apps_intel/hdf5-1.8.17
+HDF5=/home/guilherme.franz/apps_intel/hdf5-1.8.17
 export PATH=$PATH:$HDF5/bin:$HDF5/lib:$HDF5/include
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HDF5/lib
 
 ########## netcdf-c-4.8.1 #######
-export NETCDF=/home/mohid/apps_intel/netcdf-c-4.8.1
+export NETCDF=/home/guilherme.franz/apps_intel/netcdf-c-4.8.1
 export PATH=$PATH:$NETCDF/bin:$NETCDF/lib:$NETCDF/include
 
 export NETCDF_ROOT=$NETCDF
@@ -35,5 +35,5 @@ export LDFLAGS="$LDFLAGS -L$NETCDF_LIB"
 export MPIR_CVAR_CH4_OFI_TAG_BITS=31
 export MPIR_CVAR_CH4_OFI_RANK_BITS=8
 
-nohup /opt/intel/oneapi/mpi/latest/bin/mpirun -np 20 ./MohidWater_mpi.exe > Mohid.log
-nohup ./MohidDDC.exe
+nohup /opt/intel/oneapi/mpi/latest/bin/mpirun -np 10 ./MohidWater_mpi.exe > Mohid.log
+nohup ./MohidDDC.exe > MohidDDC.log

@@ -1,12 +1,12 @@
 import datetime, os
     
 forecast_mode = 1
-refday_to_start = 0 
+refday_to_start = 0  
 number_of_runs = 4 
 
 #Data de início e fim se forecast_mode = 0
-start = datetime.date(2022,12,16)
-end = datetime.date(2022,12,21)
+start = datetime.date(2023,3,15)
+end = datetime.date(2023,3,17)
 
 dirpath = os.getcwd()
 
@@ -28,7 +28,7 @@ data_dir [0] = (dirpath+"//Level_1//data")
 
 backup_dir = [0]*number_of_domains
 
-backup_dir [0] = (r"/ciram/saida/mohid/SC_PR_SP")
+backup_dir [0] = (r"/home/guilherme.franz/bso/backup/mohid/SC_PR_SP")
 
 timeseries_backup = 1
 
@@ -41,31 +41,40 @@ f_min_meteo = 1000000
 f_min_hydro = 1000000
 f_min_wp = 1000000
 
-number_of_meteo = 2
+number_of_meteo = 1
 dir_meteo = [0]*number_of_meteo
 file_name_meteo = [0]*number_of_meteo
 
-dir_meteo [0] = (r"/ciram/saida/cptec/wrf7km")
+dir_meteo [0] = (r"/home/guilherme.franz/bso/backup/wrf/cptec")
 file_name_meteo [0] = "wrf.hdf5"
 
-dir_meteo [1]= (r"/ciram/saida/nomads/gfs25")
-file_name_meteo[1] = "gfs.hdf5"
+#dir_meteo [1]= (r"/ciram/saida/nomads/gfs25")
+#file_name_meteo[1] = "gfs.hdf5"
 
-number_of_hydro = 1
+number_of_hydro = 4
 dir_hydro = [0]*number_of_hydro
 file_hydro = [0]*number_of_hydro
 
-dir_hydro[0] = (r"/ciram/saida/cmems/phy")
-file_hydro[0] = "CMEMS.hdf5"
+dir_hydro [0]= (r"/home/guilherme.franz/bso/backup/CMEMS/GLOBAL_ANALYSISFORECAST_PHY")
+file_hydro [0]= "CMEMS_zos.hdf5"
+
+dir_hydro [1]= (r"/home/guilherme.franz/bso/backup/CMEMS/GLOBAL_ANALYSISFORECAST_PHY")
+file_hydro [1]= "CMEMS_cur.hdf5"
+
+dir_hydro [2]= (r"/home/guilherme.franz/bso/backup/CMEMS/GLOBAL_ANALYSISFORECAST_PHY")
+file_hydro [2]= "CMEMS_thetao.hdf5"
+
+dir_hydro [3]= (r"/home/guilherme.franz/bso/backup/CMEMS/GLOBAL_ANALYSISFORECAST_PHY")
+file_hydro [3]= "CMEMS_so.hdf5"
 
 number_of_wp = 0
 dir_wp = [0]*number_of_wp
 file_wp = [0]*number_of_wp
 
-#dir_wp [0]= (r"//")
+#dir_wp [0]= (r"/home/guilherme.franz/bso/backup/mohid/S_SE")
 #file_wp [0]="WaterProperties_2.hdf5"
 
-rivers = 1
+rivers = 0
 dir_rivers_forecast = (r"/ciram/saida/geoglows/MohidInput")
 dir_rivers_average = (dirpath+"//Level_1//GeneralData//BoundaryConditions//Rios")
 
@@ -77,7 +86,9 @@ password = ""
 cwd = ""
 ftp_list = ["Hydrodynamic_2_Surface.hdf5.nc", "WaterProperties_2_Surface.hdf5.nc","Hydrodynamic_2_Surface.hdf5"]
 
-telegram_messages = 0
+telegram_messages = 1
+TOKEN = "5978856951:AAHSoQjiUFChxl1aYeqtwKeIvA_0YaA4xyI"
+chat_id = "5140944918"
 #TOKEN = "YOUR TELEGRAM BOT TOKEN"
 #chat_id = "YOUR CHAT ID"
-model_name = "SC_PR_SP"
+model_name = "UFPR_SC_PR_SP"
