@@ -1,0 +1,20 @@
+TIME_CYCLE : 1                                    
+SERIE_INITIAL_DATA : 2008 1 1 0 0 0                               
+TIME_UNITS : MONTHS                                    
+NAME : SP                         
+ 
+!2-Rios Una do Prelado e Guarau 
+<BeginTimeSerie>                                      
+0 41.0 
+1 43.7 
+2 50.2 
+3 40.0 
+4 28.2 
+5 20.8 
+6 17.3 
+7 18.8 
+8 21.7 
+9 30.5 
+10 33.3
+11 37.0
+<EndTimeSerie>                                          

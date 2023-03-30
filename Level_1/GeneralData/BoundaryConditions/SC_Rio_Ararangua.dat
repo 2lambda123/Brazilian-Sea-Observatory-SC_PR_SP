@@ -1,0 +1,18 @@
+TIME_CYCLE            : 1
+SERIE_INITIAL_DATA    : 2010 1 1 0 0 0
+TIME_UNITS            : MONTHS
+NAME                  : Q50 SC
+<BeginTimeSerie>
+0 64.22
+1 55.93
+2 47.16
+3 30.06
+4 46.69
+5 43.13
+6 33.43
+7 18.60
+8 31.16
+9 54.91
+10 36.11
+11 41.41
+<EndTimeSerie>

@@ -1,0 +1,20 @@
+TIME_CYCLE : 1                                    
+SERIE_INITIAL_DATA : 2008 1 1 0 0 0                               
+TIME_UNITS : MONTHS                                    
+NAME : SP                         
+ 
+!2-Rios Itapanhaú, Itaguarê, Guaratuba e  Una       
+<BeginTimeSerie>                                      
+0 42.5 
+1 49.6 
+2 45.3 
+3 46.4 
+4 46.1 
+5 48.0 
+6 37.5 
+7 30.5 
+8 32.5 
+9 35.1 
+10 32.8
+11 36.9
+<EndTimeSerie>                                          
